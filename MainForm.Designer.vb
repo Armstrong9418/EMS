@@ -22,7 +22,9 @@ Partial Class MainForm
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.pnlMain = New System.Windows.Forms.Panel()
         Me.pnlHeader = New System.Windows.Forms.Panel()
+        Me.btnMenu = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -36,12 +38,18 @@ Partial Class MainForm
         Me.btnSettings = New System.Windows.Forms.Button()
         Me.btnReport = New System.Windows.Forms.Button()
         Me.btnLayout = New System.Windows.Forms.Button()
-        Me.pnlMain = New System.Windows.Forms.Panel()
-        Me.btnMenu = New System.Windows.Forms.Button()
         Me.pnlHeader.SuspendLayout()
         Me.pnlFooter.SuspendLayout()
         Me.pnlMenu.SuspendLayout()
         Me.SuspendLayout()
+        '
+        'pnlMain
+        '
+        Me.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.pnlMain.Location = New System.Drawing.Point(185, 53)
+        Me.pnlMain.Name = "pnlMain"
+        Me.pnlMain.Size = New System.Drawing.Size(1483, 785)
+        Me.pnlMain.TabIndex = 7
         '
         'pnlHeader
         '
@@ -53,10 +61,23 @@ Partial Class MainForm
         Me.pnlHeader.Controls.Add(Me.btnClose)
         Me.pnlHeader.Controls.Add(Me.btnMinimize)
         Me.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top
-        Me.pnlHeader.Location = New System.Drawing.Point(0, 0)
+        Me.pnlHeader.Location = New System.Drawing.Point(185, 0)
         Me.pnlHeader.Name = "pnlHeader"
-        Me.pnlHeader.Size = New System.Drawing.Size(1100, 53)
-        Me.pnlHeader.TabIndex = 0
+        Me.pnlHeader.Size = New System.Drawing.Size(1483, 53)
+        Me.pnlHeader.TabIndex = 4
+        '
+        'btnMenu
+        '
+        Me.btnMenu.BackColor = System.Drawing.Color.Black
+        Me.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMenu.Font = New System.Drawing.Font("Malgun Gothic", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMenu.ForeColor = System.Drawing.Color.White
+        Me.btnMenu.Location = New System.Drawing.Point(221, 4)
+        Me.btnMenu.Name = "btnMenu"
+        Me.btnMenu.Size = New System.Drawing.Size(66, 47)
+        Me.btnMenu.TabIndex = 0
+        Me.btnMenu.Text = ": : :"
+        Me.btnMenu.UseVisualStyleBackColor = False
         '
         'Label5
         '
@@ -110,7 +131,7 @@ Partial Class MainForm
         Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnClose.Font = New System.Drawing.Font("Malgun Gothic", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnClose.ForeColor = System.Drawing.Color.White
-        Me.btnClose.Location = New System.Drawing.Point(1052, 10)
+        Me.btnClose.Location = New System.Drawing.Point(1332, 9)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(40, 35)
         Me.btnClose.TabIndex = 0
@@ -123,7 +144,7 @@ Partial Class MainForm
         Me.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMinimize.Font = New System.Drawing.Font("Malgun Gothic", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMinimize.ForeColor = System.Drawing.Color.White
-        Me.btnMinimize.Location = New System.Drawing.Point(1006, 10)
+        Me.btnMinimize.Location = New System.Drawing.Point(1286, 9)
         Me.btnMinimize.Name = "btnMinimize"
         Me.btnMinimize.Size = New System.Drawing.Size(40, 35)
         Me.btnMinimize.TabIndex = 0
@@ -135,10 +156,10 @@ Partial Class MainForm
         Me.pnlFooter.Controls.Add(Me.lblTitle)
         Me.pnlFooter.Controls.Add(Me.lblATSCADA)
         Me.pnlFooter.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.pnlFooter.Location = New System.Drawing.Point(0, 606)
+        Me.pnlFooter.Location = New System.Drawing.Point(185, 838)
         Me.pnlFooter.Name = "pnlFooter"
-        Me.pnlFooter.Size = New System.Drawing.Size(1100, 44)
-        Me.pnlFooter.TabIndex = 1
+        Me.pnlFooter.Size = New System.Drawing.Size(1483, 44)
+        Me.pnlFooter.TabIndex = 5
         '
         'lblTitle
         '
@@ -170,10 +191,10 @@ Partial Class MainForm
         Me.pnlMenu.Controls.Add(Me.btnLayout)
         Me.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left
         Me.pnlMenu.ForeColor = System.Drawing.Color.White
-        Me.pnlMenu.Location = New System.Drawing.Point(0, 53)
+        Me.pnlMenu.Location = New System.Drawing.Point(0, 0)
         Me.pnlMenu.Name = "pnlMenu"
-        Me.pnlMenu.Size = New System.Drawing.Size(185, 553)
-        Me.pnlMenu.TabIndex = 2
+        Me.pnlMenu.Size = New System.Drawing.Size(185, 882)
+        Me.pnlMenu.TabIndex = 6
         '
         'btnSettings
         '
@@ -211,35 +232,15 @@ Partial Class MainForm
         Me.btnLayout.Text = "Layout"
         Me.btnLayout.UseVisualStyleBackColor = False
         '
-        'pnlMain
-        '
-        Me.pnlMain.Location = New System.Drawing.Point(191, 59)
-        Me.pnlMain.Name = "pnlMain"
-        Me.pnlMain.Size = New System.Drawing.Size(897, 547)
-        Me.pnlMain.TabIndex = 3
-        '
-        'btnMenu
-        '
-        Me.btnMenu.BackColor = System.Drawing.Color.Black
-        Me.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMenu.Font = New System.Drawing.Font("Malgun Gothic", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMenu.ForeColor = System.Drawing.Color.White
-        Me.btnMenu.Location = New System.Drawing.Point(221, 4)
-        Me.btnMenu.Name = "btnMenu"
-        Me.btnMenu.Size = New System.Drawing.Size(66, 47)
-        Me.btnMenu.TabIndex = 0
-        Me.btnMenu.Text = ": : :"
-        Me.btnMenu.UseVisualStyleBackColor = False
-        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1100, 650)
+        Me.ClientSize = New System.Drawing.Size(1668, 882)
         Me.Controls.Add(Me.pnlMain)
-        Me.Controls.Add(Me.pnlMenu)
-        Me.Controls.Add(Me.pnlFooter)
         Me.Controls.Add(Me.pnlHeader)
+        Me.Controls.Add(Me.pnlFooter)
+        Me.Controls.Add(Me.pnlMenu)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "MainForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -253,20 +254,20 @@ Partial Class MainForm
 
     End Sub
 
-    Friend WithEvents pnlHeader As Panel
-    Friend WithEvents pnlFooter As FlowLayoutPanel
-    Friend WithEvents pnlMenu As Panel
     Friend WithEvents pnlMain As Panel
-    Friend WithEvents btnReport As Button
-    Friend WithEvents btnLayout As Button
-    Friend WithEvents lblTitle As Label
-    Friend WithEvents btnSettings As Button
-    Friend WithEvents lblATSCADA As Label
-    Friend WithEvents btnMinimize As Button
-    Friend WithEvents btnClose As Button
-    Friend WithEvents Label3 As Label
-    Friend WithEvents lblNavigate As Label
+    Friend WithEvents pnlHeader As Panel
+    Friend WithEvents btnMenu As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents btnMenu As Button
+    Friend WithEvents Label3 As Label
+    Friend WithEvents lblNavigate As Label
+    Friend WithEvents btnClose As Button
+    Friend WithEvents btnMinimize As Button
+    Friend WithEvents pnlFooter As FlowLayoutPanel
+    Friend WithEvents lblTitle As Label
+    Friend WithEvents lblATSCADA As Label
+    Friend WithEvents pnlMenu As Panel
+    Friend WithEvents btnSettings As Button
+    Friend WithEvents btnReport As Button
+    Friend WithEvents btnLayout As Button
 End Class
