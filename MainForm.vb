@@ -101,7 +101,7 @@ Public Class MainForm
     ' Boutons de navigation
     ' ---------------------------------------------------------------
     Private Sub btnDashboard_Click(sender As Object, e As EventArgs) _
-            Handles btnLayout.Click, btnMenu.Click
+            Handles btnLayout.Click
         If activeButton Is btnLayout Then Return   ' déjà sur la page
         RunOnUiThread(AddressOf NavigateToLayout)
     End Sub
