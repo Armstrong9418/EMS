@@ -120,4 +120,89 @@
   <metadata name="IDriver1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <metadata name="IThreeRatePriceLogger1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>125, 17</value>
+  </metadata>
+  <data name="IThreeRatePriceLogger1.PowerSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAENpRW5lcmd5VG9vbHMsIFZlcnNpb249MS41LjAuMCwgQ3VsdHVy
+        ZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQEAAAAoQVRTQ0FEQS5pRW5lcmd5VG9vbHMuUG93
+        ZXIuUG93ZXJTZXR0aW5ncwUAAAAMc2FtcGxpbmdUaW1lCGNhcGF0aXR5GTxUaW1lVW5pdD5rX19CYWNr
+        aW5nRmllbGQaPFBvd2VyVW5pdD5rX19CYWNraW5nRmllbGQbPEVuZXJneVVuaXQ+a19fQmFja2luZ0Zp
+        ZWxkAAAEBAQPBiJBVFNDQURBLmlFbmVyZ3lUb29scy5Db3JlLlRpbWVVbml0AgAAACRBVFNDQURBLmlF
+        bmVyZ3lUb29scy5Qb3dlci5Qb3dlclVuaXQCAAAAJUFUU0NBREEuaUVuZXJneVRvb2xzLlBvd2VyLkVu
+        ZXJneVVuaXQCAAAAAgAAAIgTAAAAAAAAhNeXQQX9////IkFUU0NBREEuaUVuZXJneVRvb2xzLkNvcmUu
+        VGltZVVuaXQBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfz///8kQVRTQ0FEQS5pRW5lcmd5VG9vbHMuUG93
+        ZXIuUG93ZXJVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAX7////JUFUU0NBREEuaUVuZXJneVRvb2xz
+        LlBvd2VyLkVuZXJneVVuaXQBAAAAB3ZhbHVlX18ACAIAAADoAwAACw==
+</value>
+  </data>
+  <metadata name="IThreeRatePriceLogger2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>339, 17</value>
+  </metadata>
+  <data name="IThreeRatePriceLogger2.PowerSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAENpRW5lcmd5VG9vbHMsIFZlcnNpb249MS41LjAuMCwgQ3VsdHVy
+        ZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQEAAAAoQVRTQ0FEQS5pRW5lcmd5VG9vbHMuUG93
+        ZXIuUG93ZXJTZXR0aW5ncwUAAAAMc2FtcGxpbmdUaW1lCGNhcGF0aXR5GTxUaW1lVW5pdD5rX19CYWNr
+        aW5nRmllbGQaPFBvd2VyVW5pdD5rX19CYWNraW5nRmllbGQbPEVuZXJneVVuaXQ+a19fQmFja2luZ0Zp
+        ZWxkAAAEBAQPBiJBVFNDQURBLmlFbmVyZ3lUb29scy5Db3JlLlRpbWVVbml0AgAAACRBVFNDQURBLmlF
+        bmVyZ3lUb29scy5Qb3dlci5Qb3dlclVuaXQCAAAAJUFUU0NBREEuaUVuZXJneVRvb2xzLlBvd2VyLkVu
+        ZXJneVVuaXQCAAAAAgAAAIgTAAAAAAAAhNeXQQX9////IkFUU0NBREEuaUVuZXJneVRvb2xzLkNvcmUu
+        VGltZVVuaXQBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfz///8kQVRTQ0FEQS5pRW5lcmd5VG9vbHMuUG93
+        ZXIuUG93ZXJVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAX7////JUFUU0NBREEuaUVuZXJneVRvb2xz
+        LlBvd2VyLkVuZXJneVVuaXQBAAAAB3ZhbHVlX18ACAIAAADoAwAACw==
+</value>
+  </data>
+  <metadata name="IThreeRatePriceLogger3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>553, 17</value>
+  </metadata>
+  <data name="IThreeRatePriceLogger3.PowerSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAENpRW5lcmd5VG9vbHMsIFZlcnNpb249MS41LjAuMCwgQ3VsdHVy
+        ZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQEAAAAoQVRTQ0FEQS5pRW5lcmd5VG9vbHMuUG93
+        ZXIuUG93ZXJTZXR0aW5ncwUAAAAMc2FtcGxpbmdUaW1lCGNhcGF0aXR5GTxUaW1lVW5pdD5rX19CYWNr
+        aW5nRmllbGQaPFBvd2VyVW5pdD5rX19CYWNraW5nRmllbGQbPEVuZXJneVVuaXQ+a19fQmFja2luZ0Zp
+        ZWxkAAAEBAQPBiJBVFNDQURBLmlFbmVyZ3lUb29scy5Db3JlLlRpbWVVbml0AgAAACRBVFNDQURBLmlF
+        bmVyZ3lUb29scy5Qb3dlci5Qb3dlclVuaXQCAAAAJUFUU0NBREEuaUVuZXJneVRvb2xzLlBvd2VyLkVu
+        ZXJneVVuaXQCAAAAAgAAAIgTAAAAAAAAhNeXQQX9////IkFUU0NBREEuaUVuZXJneVRvb2xzLkNvcmUu
+        VGltZVVuaXQBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfz///8kQVRTQ0FEQS5pRW5lcmd5VG9vbHMuUG93
+        ZXIuUG93ZXJVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAX7////JUFUU0NBREEuaUVuZXJneVRvb2xz
+        LlBvd2VyLkVuZXJneVVuaXQBAAAAB3ZhbHVlX18ACAIAAADoAwAACw==
+</value>
+  </data>
+  <metadata name="IThreeRatePriceLogger4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 58</value>
+  </metadata>
+  <data name="IThreeRatePriceLogger4.PowerSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAENpRW5lcmd5VG9vbHMsIFZlcnNpb249MS41LjAuMCwgQ3VsdHVy
+        ZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQEAAAAoQVRTQ0FEQS5pRW5lcmd5VG9vbHMuUG93
+        ZXIuUG93ZXJTZXR0aW5ncwUAAAAMc2FtcGxpbmdUaW1lCGNhcGF0aXR5GTxUaW1lVW5pdD5rX19CYWNr
+        aW5nRmllbGQaPFBvd2VyVW5pdD5rX19CYWNraW5nRmllbGQbPEVuZXJneVVuaXQ+a19fQmFja2luZ0Zp
+        ZWxkAAAEBAQPBiJBVFNDQURBLmlFbmVyZ3lUb29scy5Db3JlLlRpbWVVbml0AgAAACRBVFNDQURBLmlF
+        bmVyZ3lUb29scy5Qb3dlci5Qb3dlclVuaXQCAAAAJUFUU0NBREEuaUVuZXJneVRvb2xzLlBvd2VyLkVu
+        ZXJneVVuaXQCAAAAAgAAAIgTAAAAAAAAhNeXQQX9////IkFUU0NBREEuaUVuZXJneVRvb2xzLkNvcmUu
+        VGltZVVuaXQBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfz///8kQVRTQ0FEQS5pRW5lcmd5VG9vbHMuUG93
+        ZXIuUG93ZXJVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAX7////JUFUU0NBREEuaUVuZXJneVRvb2xz
+        LlBvd2VyLkVuZXJneVVuaXQBAAAAB3ZhbHVlX18ACAIAAADoAwAACw==
+</value>
+  </data>
+  <metadata name="IThreeRatePriceLogger5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>231, 58</value>
+  </metadata>
+  <data name="IThreeRatePriceLogger5.PowerSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAENpRW5lcmd5VG9vbHMsIFZlcnNpb249MS41LjAuMCwgQ3VsdHVy
+        ZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQEAAAAoQVRTQ0FEQS5pRW5lcmd5VG9vbHMuUG93
+        ZXIuUG93ZXJTZXR0aW5ncwUAAAAMc2FtcGxpbmdUaW1lCGNhcGF0aXR5GTxUaW1lVW5pdD5rX19CYWNr
+        aW5nRmllbGQaPFBvd2VyVW5pdD5rX19CYWNraW5nRmllbGQbPEVuZXJneVVuaXQ+a19fQmFja2luZ0Zp
+        ZWxkAAAEBAQPBiJBVFNDQURBLmlFbmVyZ3lUb29scy5Db3JlLlRpbWVVbml0AgAAACRBVFNDQURBLmlF
+        bmVyZ3lUb29scy5Qb3dlci5Qb3dlclVuaXQCAAAAJUFUU0NBREEuaUVuZXJneVRvb2xzLlBvd2VyLkVu
+        ZXJneVVuaXQCAAAAAgAAAIgTAAAAAAAAhNeXQQX9////IkFUU0NBREEuaUVuZXJneVRvb2xzLkNvcmUu
+        VGltZVVuaXQBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfz///8kQVRTQ0FEQS5pRW5lcmd5VG9vbHMuUG93
+        ZXIuUG93ZXJVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAX7////JUFUU0NBREEuaUVuZXJneVRvb2xz
+        LlBvd2VyLkVuZXJneVVuaXQBAAAAB3ZhbHVlX18ACAIAAADoAwAACw==
+</value>
+  </data>
 </root>

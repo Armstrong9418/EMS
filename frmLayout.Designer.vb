@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmLayout
     Inherits System.Windows.Forms.Form
 
     'Form remplace la méthode Dispose pour nettoyer la liste des composants.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,82 +20,89 @@ Partial Class frmLayout
     'REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
     'Elle peut être modifiée à l'aide du Concepteur Windows Form.  
     'Ne la modifiez pas à l'aide de l'éditeur de code.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmLayout))
         Me.Panel28 = New System.Windows.Forms.Panel()
+        Me.IGauge8 = New ATSCADA.iGraphicTools.Gauge.iGauge()
+        Me.IDriver1 = New ATSCADA.iDriver()
+        Me.IGauge7 = New ATSCADA.iGraphicTools.Gauge.iGauge()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.Panel12 = New System.Windows.Forms.Panel()
+        Me.ILed7Segment7 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Panel13 = New System.Windows.Forms.Panel()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.ILed7Segment6 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Panel15 = New System.Windows.Forms.Panel()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Panel16 = New System.Windows.Forms.Panel()
+        Me.ILed7Segment2 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Panel17 = New System.Windows.Forms.Panel()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.IGauge2 = New ATSCADA.iGraphicTools.Gauge.iGauge()
+        Me.IGauge1 = New ATSCADA.iGraphicTools.Gauge.iGauge()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
+        Me.IGauge12 = New ATSCADA.iGraphicTools.Gauge.iGauge()
+        Me.IGauge11 = New ATSCADA.iGraphicTools.Gauge.iGauge()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel25 = New System.Windows.Forms.Panel()
+        Me.IGauge4 = New ATSCADA.iGraphicTools.Gauge.iGauge()
+        Me.IGauge3 = New ATSCADA.iGraphicTools.Gauge.iGauge()
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Panel26 = New System.Windows.Forms.Panel()
+        Me.IGauge10 = New ATSCADA.iGraphicTools.Gauge.iGauge()
+        Me.IGauge9 = New ATSCADA.iGraphicTools.Gauge.iGauge()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Panel27 = New System.Windows.Forms.Panel()
+        Me.IGauge6 = New ATSCADA.iGraphicTools.Gauge.iGauge()
+        Me.IGauge5 = New ATSCADA.iGraphicTools.Gauge.iGauge()
         Me.Label36 = New System.Windows.Forms.Label()
-        Me.Panel24 = New System.Windows.Forms.Panel()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.Panel23 = New System.Windows.Forms.Panel()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.Panel21 = New System.Windows.Forms.Panel()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.Panel22 = New System.Windows.Forms.Panel()
-        Me.Label29 = New System.Windows.Forms.Label()
-        Me.Panel19 = New System.Windows.Forms.Panel()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.Panel20 = New System.Windows.Forms.Panel()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Panel18 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.ILed7Segment1 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.ILed7Segment4 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.ILed7Segment5 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Panel9 = New System.Windows.Forms.Panel()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.IDriver1 = New ATSCADA.iDriver()
-        Me.ILed7Segment1 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
-        Me.ILed7Segment2 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
+        Me.IThreeRatePriceLogger1 = New ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger(Me.components)
+        Me.IThreeRatePriceLogger2 = New ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger(Me.components)
+        Me.IThreeRatePriceLogger3 = New ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger(Me.components)
+        Me.IThreeRatePriceLogger4 = New ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger(Me.components)
+        Me.IThreeRatePriceLogger5 = New ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger(Me.components)
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel18 = New System.Windows.Forms.Panel()
         Me.ILed7Segment3 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
-        Me.ILed7Segment4 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
-        Me.ILed7Segment5 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
-        Me.ILed7Segment6 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
-        Me.ILed7Segment7 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Panel19 = New System.Windows.Forms.Panel()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Panel20 = New System.Windows.Forms.Panel()
         Me.ILed7Segment8 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Panel21 = New System.Windows.Forms.Panel()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Panel22 = New System.Windows.Forms.Panel()
         Me.ILed7Segment9 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
-        Me.IGauge1 = New ATSCADA.iGraphicTools.Gauge.iGauge()
-        Me.IGauge2 = New ATSCADA.iGraphicTools.Gauge.iGauge()
-        Me.IGauge3 = New ATSCADA.iGraphicTools.Gauge.iGauge()
-        Me.IGauge4 = New ATSCADA.iGraphicTools.Gauge.iGauge()
-        Me.IGauge5 = New ATSCADA.iGraphicTools.Gauge.iGauge()
-        Me.IGauge6 = New ATSCADA.iGraphicTools.Gauge.iGauge()
-        Me.IGauge7 = New ATSCADA.iGraphicTools.Gauge.iGauge()
-        Me.IGauge8 = New ATSCADA.iGraphicTools.Gauge.iGauge()
-        Me.IGauge9 = New ATSCADA.iGraphicTools.Gauge.iGauge()
-        Me.IGauge10 = New ATSCADA.iGraphicTools.Gauge.iGauge()
-        Me.IGauge11 = New ATSCADA.iGraphicTools.Gauge.iGauge()
-        Me.IGauge12 = New ATSCADA.iGraphicTools.Gauge.iGauge()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Panel23 = New System.Windows.Forms.Panel()
+        Me.Label13 = New System.Windows.Forms.Label()
         Me.Panel28.SuspendLayout()
         Me.Panel12.SuspendLayout()
         Me.Panel13.SuspendLayout()
@@ -109,13 +116,6 @@ Partial Class frmLayout
         Me.Panel25.SuspendLayout()
         Me.Panel26.SuspendLayout()
         Me.Panel27.SuspendLayout()
-        Me.Panel24.SuspendLayout()
-        Me.Panel23.SuspendLayout()
-        Me.Panel21.SuspendLayout()
-        Me.Panel22.SuspendLayout()
-        Me.Panel19.SuspendLayout()
-        Me.Panel20.SuspendLayout()
-        Me.Panel18.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel6.SuspendLayout()
@@ -123,6 +123,13 @@ Partial Class frmLayout
         Me.Panel7.SuspendLayout()
         Me.Panel9.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        Me.Panel18.SuspendLayout()
+        Me.Panel19.SuspendLayout()
+        Me.Panel20.SuspendLayout()
+        Me.Panel21.SuspendLayout()
+        Me.Panel22.SuspendLayout()
+        Me.Panel23.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel28
@@ -134,6 +141,56 @@ Partial Class frmLayout
         Me.Panel28.Name = "Panel28"
         Me.Panel28.Size = New System.Drawing.Size(448, 193)
         Me.Panel28.TabIndex = 9
+        '
+        'IGauge8
+        '
+        Me.IGauge8.BackColor = System.Drawing.Color.Transparent
+        Me.IGauge8.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge8.Driver = Me.IDriver1
+        Me.IGauge8.Location = New System.Drawing.Point(3, 3)
+        Me.IGauge8.MaxValue = 100.0R
+        Me.IGauge8.MinValue = 0R
+        Me.IGauge8.Name = "IGauge8"
+        Me.IGauge8.NeedleColor = System.Drawing.Color.Red
+        Me.IGauge8.Renderer = Nothing
+        Me.IGauge8.ScaleColor = System.Drawing.Color.White
+        Me.IGauge8.ScaleDivisions = 6
+        Me.IGauge8.ScaleSubDivisions = 10
+        Me.IGauge8.Size = New System.Drawing.Size(168, 166)
+        Me.IGauge8.TabIndex = 3
+        Me.IGauge8.TagName = "KV3DH5.Current"
+        Me.IGauge8.Text = "IGauge1"
+        Me.IGauge8.Value = 50.0R
+        Me.IGauge8.ViewGlass = False
+        '
+        'IDriver1
+        '
+        Me.IDriver1.Designmode = False
+        Me.IDriver1.GetTaskTimeOut = CType(5000UL, ULong)
+        Me.IDriver1.MaxTagWriteTimes = 10
+        Me.IDriver1.ProjectFile = Nothing
+        Me.IDriver1.WaitingTime = 3000
+        '
+        'IGauge7
+        '
+        Me.IGauge7.BackColor = System.Drawing.Color.Transparent
+        Me.IGauge7.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge7.Driver = Me.IDriver1
+        Me.IGauge7.Location = New System.Drawing.Point(277, 3)
+        Me.IGauge7.MaxValue = 100.0R
+        Me.IGauge7.MinValue = 0R
+        Me.IGauge7.Name = "IGauge7"
+        Me.IGauge7.NeedleColor = System.Drawing.Color.Red
+        Me.IGauge7.Renderer = Nothing
+        Me.IGauge7.ScaleColor = System.Drawing.Color.White
+        Me.IGauge7.ScaleDivisions = 6
+        Me.IGauge7.ScaleSubDivisions = 10
+        Me.IGauge7.Size = New System.Drawing.Size(168, 166)
+        Me.IGauge7.TabIndex = 2
+        Me.IGauge7.TagName = "KV3DH6.Current"
+        Me.IGauge7.Text = "IGauge1"
+        Me.IGauge7.Value = 50.0R
+        Me.IGauge7.ViewGlass = False
         '
         'Label37
         '
@@ -155,6 +212,27 @@ Partial Class frmLayout
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(220, 111)
         Me.Panel12.TabIndex = 3
+        '
+        'ILed7Segment7
+        '
+        Me.ILed7Segment7.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment7.ColorDark = System.Drawing.Color.Silver
+        Me.ILed7Segment7.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment7.Cursor = System.Windows.Forms.Cursors.Default
+        Me.ILed7Segment7.DecimalShow = True
+        Me.ILed7Segment7.DigitNumber = 4
+        Me.ILed7Segment7.Driver = Me.IDriver1
+        Me.ILed7Segment7.ElementPadding = New System.Windows.Forms.Padding(10)
+        Me.ILed7Segment7.ElementWidth = 10
+        Me.ILed7Segment7.ItalicFactor = -0.1!
+        Me.ILed7Segment7.Location = New System.Drawing.Point(21, 3)
+        Me.ILed7Segment7.Name = "ILed7Segment7"
+        Me.ILed7Segment7.Size = New System.Drawing.Size(169, 48)
+        Me.ILed7Segment7.TabIndex = 13
+        Me.ILed7Segment7.TabStop = False
+        Me.ILed7Segment7.TagName = "KV2DH4.Energy"
+        Me.ILed7Segment7.Text = "ILed7Segment7"
+        Me.ILed7Segment7.Value = "0"
         '
         'Label16
         '
@@ -208,6 +286,27 @@ Partial Class frmLayout
         Me.Panel14.Size = New System.Drawing.Size(213, 111)
         Me.Panel14.TabIndex = 2
         '
+        'ILed7Segment6
+        '
+        Me.ILed7Segment6.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment6.ColorDark = System.Drawing.Color.Silver
+        Me.ILed7Segment6.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment6.Cursor = System.Windows.Forms.Cursors.Default
+        Me.ILed7Segment6.DecimalShow = True
+        Me.ILed7Segment6.DigitNumber = 4
+        Me.ILed7Segment6.Driver = Me.IDriver1
+        Me.ILed7Segment6.ElementPadding = New System.Windows.Forms.Padding(10)
+        Me.ILed7Segment6.ElementWidth = 10
+        Me.ILed7Segment6.ItalicFactor = -0.1!
+        Me.ILed7Segment6.Location = New System.Drawing.Point(25, 5)
+        Me.ILed7Segment6.Name = "ILed7Segment6"
+        Me.ILed7Segment6.Size = New System.Drawing.Size(166, 45)
+        Me.ILed7Segment6.TabIndex = 13
+        Me.ILed7Segment6.TabStop = False
+        Me.ILed7Segment6.TagName = "KV2DH3.Energy"
+        Me.ILed7Segment6.Text = "ILed7Segment6"
+        Me.ILed7Segment6.Value = "0"
+        '
         'Label19
         '
         Me.Label19.AutoSize = True
@@ -247,6 +346,27 @@ Partial Class frmLayout
         Me.Panel16.Name = "Panel16"
         Me.Panel16.Size = New System.Drawing.Size(442, 108)
         Me.Panel16.TabIndex = 1
+        '
+        'ILed7Segment2
+        '
+        Me.ILed7Segment2.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment2.ColorDark = System.Drawing.Color.Silver
+        Me.ILed7Segment2.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment2.Cursor = System.Windows.Forms.Cursors.Default
+        Me.ILed7Segment2.DecimalShow = True
+        Me.ILed7Segment2.DigitNumber = 4
+        Me.ILed7Segment2.Driver = Me.IDriver1
+        Me.ILed7Segment2.ElementPadding = New System.Windows.Forms.Padding(10)
+        Me.ILed7Segment2.ElementWidth = 10
+        Me.ILed7Segment2.ItalicFactor = -0.1!
+        Me.ILed7Segment2.Location = New System.Drawing.Point(116, 33)
+        Me.ILed7Segment2.Name = "ILed7Segment2"
+        Me.ILed7Segment2.Size = New System.Drawing.Size(214, 58)
+        Me.ILed7Segment2.TabIndex = 13
+        Me.ILed7Segment2.TabStop = False
+        Me.ILed7Segment2.TagName = "EnergyTotalTotal.KV2"
+        Me.ILed7Segment2.Text = "ILed7Segment2"
+        Me.ILed7Segment2.Value = "0"
         '
         'Label23
         '
@@ -291,6 +411,48 @@ Partial Class frmLayout
         Me.Panel10.Size = New System.Drawing.Size(448, 193)
         Me.Panel10.TabIndex = 9
         '
+        'IGauge2
+        '
+        Me.IGauge2.BackColor = System.Drawing.Color.Transparent
+        Me.IGauge2.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge2.Driver = Me.IDriver1
+        Me.IGauge2.Location = New System.Drawing.Point(263, 3)
+        Me.IGauge2.MaxValue = 100.0R
+        Me.IGauge2.MinValue = 0R
+        Me.IGauge2.Name = "IGauge2"
+        Me.IGauge2.NeedleColor = System.Drawing.Color.Red
+        Me.IGauge2.Renderer = Nothing
+        Me.IGauge2.ScaleColor = System.Drawing.Color.White
+        Me.IGauge2.ScaleDivisions = 6
+        Me.IGauge2.ScaleSubDivisions = 10
+        Me.IGauge2.Size = New System.Drawing.Size(168, 166)
+        Me.IGauge2.TabIndex = 1
+        Me.IGauge2.TagName = "KV1DH2.Voltage"
+        Me.IGauge2.Text = "IGauge1"
+        Me.IGauge2.Value = 50.0R
+        Me.IGauge2.ViewGlass = False
+        '
+        'IGauge1
+        '
+        Me.IGauge1.BackColor = System.Drawing.Color.Transparent
+        Me.IGauge1.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge1.Driver = Me.IDriver1
+        Me.IGauge1.Location = New System.Drawing.Point(26, 0)
+        Me.IGauge1.MaxValue = 100.0R
+        Me.IGauge1.MinValue = 0R
+        Me.IGauge1.Name = "IGauge1"
+        Me.IGauge1.NeedleColor = System.Drawing.Color.Red
+        Me.IGauge1.Renderer = Nothing
+        Me.IGauge1.ScaleColor = System.Drawing.Color.White
+        Me.IGauge1.ScaleDivisions = 6
+        Me.IGauge1.ScaleSubDivisions = 10
+        Me.IGauge1.Size = New System.Drawing.Size(168, 166)
+        Me.IGauge1.TabIndex = 1
+        Me.IGauge1.TagName = "KV1DH1.Voltage"
+        Me.IGauge1.Text = "IGauge1"
+        Me.IGauge1.Value = 50.0R
+        Me.IGauge1.ViewGlass = False
+        '
         'Label7
         '
         Me.Label7.AutoSize = True
@@ -323,6 +485,48 @@ Partial Class frmLayout
         Me.Panel11.Size = New System.Drawing.Size(448, 193)
         Me.Panel11.TabIndex = 9
         '
+        'IGauge12
+        '
+        Me.IGauge12.BackColor = System.Drawing.Color.Transparent
+        Me.IGauge12.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge12.Driver = Me.IDriver1
+        Me.IGauge12.Location = New System.Drawing.Point(277, 3)
+        Me.IGauge12.MaxValue = 100.0R
+        Me.IGauge12.MinValue = 0R
+        Me.IGauge12.Name = "IGauge12"
+        Me.IGauge12.NeedleColor = System.Drawing.Color.Red
+        Me.IGauge12.Renderer = Nothing
+        Me.IGauge12.ScaleColor = System.Drawing.Color.White
+        Me.IGauge12.ScaleDivisions = 6
+        Me.IGauge12.ScaleSubDivisions = 10
+        Me.IGauge12.Size = New System.Drawing.Size(168, 166)
+        Me.IGauge12.TabIndex = 3
+        Me.IGauge12.TagName = "KV1DH2.Current"
+        Me.IGauge12.Text = "IGauge1"
+        Me.IGauge12.Value = 50.0R
+        Me.IGauge12.ViewGlass = False
+        '
+        'IGauge11
+        '
+        Me.IGauge11.BackColor = System.Drawing.Color.Transparent
+        Me.IGauge11.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge11.Driver = Me.IDriver1
+        Me.IGauge11.Location = New System.Drawing.Point(3, 3)
+        Me.IGauge11.MaxValue = 100.0R
+        Me.IGauge11.MinValue = 0R
+        Me.IGauge11.Name = "IGauge11"
+        Me.IGauge11.NeedleColor = System.Drawing.Color.Red
+        Me.IGauge11.Renderer = Nothing
+        Me.IGauge11.ScaleColor = System.Drawing.Color.White
+        Me.IGauge11.ScaleDivisions = 6
+        Me.IGauge11.ScaleSubDivisions = 10
+        Me.IGauge11.Size = New System.Drawing.Size(168, 166)
+        Me.IGauge11.TabIndex = 2
+        Me.IGauge11.TagName = "KV1DH1.Current"
+        Me.IGauge11.Text = "IGauge1"
+        Me.IGauge11.Value = 50.0R
+        Me.IGauge11.ViewGlass = False
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -343,6 +547,48 @@ Partial Class frmLayout
         Me.Panel25.Name = "Panel25"
         Me.Panel25.Size = New System.Drawing.Size(448, 193)
         Me.Panel25.TabIndex = 9
+        '
+        'IGauge4
+        '
+        Me.IGauge4.BackColor = System.Drawing.Color.Transparent
+        Me.IGauge4.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge4.Driver = Me.IDriver1
+        Me.IGauge4.Location = New System.Drawing.Point(272, 3)
+        Me.IGauge4.MaxValue = 100.0R
+        Me.IGauge4.MinValue = 0R
+        Me.IGauge4.Name = "IGauge4"
+        Me.IGauge4.NeedleColor = System.Drawing.Color.Red
+        Me.IGauge4.Renderer = Nothing
+        Me.IGauge4.ScaleColor = System.Drawing.Color.White
+        Me.IGauge4.ScaleDivisions = 6
+        Me.IGauge4.ScaleSubDivisions = 10
+        Me.IGauge4.Size = New System.Drawing.Size(168, 166)
+        Me.IGauge4.TabIndex = 3
+        Me.IGauge4.TagName = "KV2DH4.Voltage"
+        Me.IGauge4.Text = "IGauge1"
+        Me.IGauge4.Value = 50.0R
+        Me.IGauge4.ViewGlass = False
+        '
+        'IGauge3
+        '
+        Me.IGauge3.BackColor = System.Drawing.Color.Transparent
+        Me.IGauge3.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge3.Driver = Me.IDriver1
+        Me.IGauge3.Location = New System.Drawing.Point(6, 0)
+        Me.IGauge3.MaxValue = 100.0R
+        Me.IGauge3.MinValue = 0R
+        Me.IGauge3.Name = "IGauge3"
+        Me.IGauge3.NeedleColor = System.Drawing.Color.Red
+        Me.IGauge3.Renderer = Nothing
+        Me.IGauge3.ScaleColor = System.Drawing.Color.White
+        Me.IGauge3.ScaleDivisions = 6
+        Me.IGauge3.ScaleSubDivisions = 10
+        Me.IGauge3.Size = New System.Drawing.Size(168, 166)
+        Me.IGauge3.TabIndex = 2
+        Me.IGauge3.TagName = "KV2DH3.Voltage"
+        Me.IGauge3.Text = "IGauge1"
+        Me.IGauge3.Value = 50.0R
+        Me.IGauge3.ViewGlass = False
         '
         'Label34
         '
@@ -365,6 +611,48 @@ Partial Class frmLayout
         Me.Panel26.Size = New System.Drawing.Size(448, 193)
         Me.Panel26.TabIndex = 9
         '
+        'IGauge10
+        '
+        Me.IGauge10.BackColor = System.Drawing.Color.Transparent
+        Me.IGauge10.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge10.Driver = Me.IDriver1
+        Me.IGauge10.Location = New System.Drawing.Point(277, 3)
+        Me.IGauge10.MaxValue = 100.0R
+        Me.IGauge10.MinValue = 0R
+        Me.IGauge10.Name = "IGauge10"
+        Me.IGauge10.NeedleColor = System.Drawing.Color.Red
+        Me.IGauge10.Renderer = Nothing
+        Me.IGauge10.ScaleColor = System.Drawing.Color.White
+        Me.IGauge10.ScaleDivisions = 6
+        Me.IGauge10.ScaleSubDivisions = 10
+        Me.IGauge10.Size = New System.Drawing.Size(168, 166)
+        Me.IGauge10.TabIndex = 3
+        Me.IGauge10.TagName = "KV2DH4.Current"
+        Me.IGauge10.Text = "IGauge1"
+        Me.IGauge10.Value = 50.0R
+        Me.IGauge10.ViewGlass = False
+        '
+        'IGauge9
+        '
+        Me.IGauge9.BackColor = System.Drawing.Color.Transparent
+        Me.IGauge9.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge9.Driver = Me.IDriver1
+        Me.IGauge9.Location = New System.Drawing.Point(3, 3)
+        Me.IGauge9.MaxValue = 100.0R
+        Me.IGauge9.MinValue = 0R
+        Me.IGauge9.Name = "IGauge9"
+        Me.IGauge9.NeedleColor = System.Drawing.Color.Red
+        Me.IGauge9.Renderer = Nothing
+        Me.IGauge9.ScaleColor = System.Drawing.Color.White
+        Me.IGauge9.ScaleDivisions = 6
+        Me.IGauge9.ScaleSubDivisions = 10
+        Me.IGauge9.Size = New System.Drawing.Size(168, 166)
+        Me.IGauge9.TabIndex = 2
+        Me.IGauge9.TagName = "KV2DH3.Current"
+        Me.IGauge9.Text = "IGauge1"
+        Me.IGauge9.Value = 50.0R
+        Me.IGauge9.ViewGlass = False
+        '
         'Label35
         '
         Me.Label35.AutoSize = True
@@ -386,6 +674,48 @@ Partial Class frmLayout
         Me.Panel27.Size = New System.Drawing.Size(448, 193)
         Me.Panel27.TabIndex = 9
         '
+        'IGauge6
+        '
+        Me.IGauge6.BackColor = System.Drawing.Color.Transparent
+        Me.IGauge6.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge6.Driver = Me.IDriver1
+        Me.IGauge6.Location = New System.Drawing.Point(277, 3)
+        Me.IGauge6.MaxValue = 100.0R
+        Me.IGauge6.MinValue = 0R
+        Me.IGauge6.Name = "IGauge6"
+        Me.IGauge6.NeedleColor = System.Drawing.Color.Red
+        Me.IGauge6.Renderer = Nothing
+        Me.IGauge6.ScaleColor = System.Drawing.Color.White
+        Me.IGauge6.ScaleDivisions = 6
+        Me.IGauge6.ScaleSubDivisions = 10
+        Me.IGauge6.Size = New System.Drawing.Size(168, 166)
+        Me.IGauge6.TabIndex = 5
+        Me.IGauge6.TagName = "KV3DH6.Voltage"
+        Me.IGauge6.Text = "IGauge1"
+        Me.IGauge6.Value = 50.0R
+        Me.IGauge6.ViewGlass = False
+        '
+        'IGauge5
+        '
+        Me.IGauge5.BackColor = System.Drawing.Color.Transparent
+        Me.IGauge5.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge5.Driver = Me.IDriver1
+        Me.IGauge5.Location = New System.Drawing.Point(3, 3)
+        Me.IGauge5.MaxValue = 100.0R
+        Me.IGauge5.MinValue = 0R
+        Me.IGauge5.Name = "IGauge5"
+        Me.IGauge5.NeedleColor = System.Drawing.Color.Red
+        Me.IGauge5.Renderer = Nothing
+        Me.IGauge5.ScaleColor = System.Drawing.Color.White
+        Me.IGauge5.ScaleDivisions = 6
+        Me.IGauge5.ScaleSubDivisions = 10
+        Me.IGauge5.Size = New System.Drawing.Size(168, 166)
+        Me.IGauge5.TabIndex = 4
+        Me.IGauge5.TagName = "KV3DH5.Voltage"
+        Me.IGauge5.Text = "IGauge1"
+        Me.IGauge5.Value = 50.0R
+        Me.IGauge5.ViewGlass = False
+        '
         'Label36
         '
         Me.Label36.AutoSize = True
@@ -396,141 +726,6 @@ Partial Class frmLayout
         Me.Label36.Size = New System.Drawing.Size(96, 23)
         Me.Label36.TabIndex = 0
         Me.Label36.Text = "Voltage (V)"
-        '
-        'Panel24
-        '
-        Me.Panel24.BackColor = System.Drawing.Color.Navy
-        Me.Panel24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel24.Controls.Add(Me.Label33)
-        Me.Panel24.Font = New System.Drawing.Font("Malgun Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel24.ForeColor = System.Drawing.Color.White
-        Me.Panel24.Location = New System.Drawing.Point(3, 3)
-        Me.Panel24.Name = "Panel24"
-        Me.Panel24.Size = New System.Drawing.Size(445, 35)
-        Me.Panel24.TabIndex = 0
-        '
-        'Label33
-        '
-        Me.Label33.AutoSize = True
-        Me.Label33.Font = New System.Drawing.Font("Malgun Gothic", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(167, 6)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(63, 23)
-        Me.Label33.TabIndex = 0
-        Me.Label33.Text = "Area 3"
-        '
-        'Panel23
-        '
-        Me.Panel23.Controls.Add(Me.ILed7Segment3)
-        Me.Panel23.Controls.Add(Me.Label32)
-        Me.Panel23.Location = New System.Drawing.Point(3, 36)
-        Me.Panel23.Name = "Panel23"
-        Me.Panel23.Size = New System.Drawing.Size(442, 108)
-        Me.Panel23.TabIndex = 1
-        '
-        'Label32
-        '
-        Me.Label32.AutoSize = True
-        Me.Label32.Font = New System.Drawing.Font("Malgun Gothic", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label32.Location = New System.Drawing.Point(127, 5)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(165, 25)
-        Me.Label32.TabIndex = 0
-        Me.Label32.Text = "Energy Total (kWh)"
-        '
-        'Panel21
-        '
-        Me.Panel21.Controls.Add(Me.ILed7Segment8)
-        Me.Panel21.Controls.Add(Me.Label28)
-        Me.Panel21.Controls.Add(Me.Panel22)
-        Me.Panel21.Location = New System.Drawing.Point(3, 147)
-        Me.Panel21.Name = "Panel21"
-        Me.Panel21.Size = New System.Drawing.Size(213, 111)
-        Me.Panel21.TabIndex = 2
-        '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Malgun Gothic", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label28.Location = New System.Drawing.Point(52, 53)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(103, 23)
-        Me.Label28.TabIndex = 0
-        Me.Label28.Text = "Energy PM5"
-        '
-        'Panel22
-        '
-        Me.Panel22.BackColor = System.Drawing.Color.Navy
-        Me.Panel22.Controls.Add(Me.Label29)
-        Me.Panel22.ForeColor = System.Drawing.Color.White
-        Me.Panel22.Location = New System.Drawing.Point(3, 79)
-        Me.Panel22.Name = "Panel22"
-        Me.Panel22.Size = New System.Drawing.Size(207, 29)
-        Me.Panel22.TabIndex = 0
-        '
-        'Label29
-        '
-        Me.Label29.AutoSize = True
-        Me.Label29.Font = New System.Drawing.Font("Malgun Gothic", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(37, 0)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(125, 23)
-        Me.Label29.TabIndex = 0
-        Me.Label29.Text = "PowerMeter 5"
-        '
-        'Panel19
-        '
-        Me.Panel19.Controls.Add(Me.ILed7Segment9)
-        Me.Panel19.Controls.Add(Me.Label25)
-        Me.Panel19.Controls.Add(Me.Panel20)
-        Me.Panel19.Location = New System.Drawing.Point(220, 147)
-        Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(220, 111)
-        Me.Panel19.TabIndex = 3
-        '
-        'Label25
-        '
-        Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Malgun Gothic", 10.2!)
-        Me.Label25.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label25.Location = New System.Drawing.Point(56, 53)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(103, 23)
-        Me.Label25.TabIndex = 0
-        Me.Label25.Text = "Energy PM6"
-        '
-        'Panel20
-        '
-        Me.Panel20.BackColor = System.Drawing.Color.Navy
-        Me.Panel20.Controls.Add(Me.Label26)
-        Me.Panel20.ForeColor = System.Drawing.Color.White
-        Me.Panel20.Location = New System.Drawing.Point(-1, 79)
-        Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(218, 29)
-        Me.Panel20.TabIndex = 1
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.Font = New System.Drawing.Font("Malgun Gothic", 10.2!, System.Drawing.FontStyle.Bold)
-        Me.Label26.Location = New System.Drawing.Point(35, 0)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(125, 23)
-        Me.Label26.TabIndex = 0
-        Me.Label26.Text = "PowerMeter 6"
-        '
-        'Panel18
-        '
-        Me.Panel18.Controls.Add(Me.Panel19)
-        Me.Panel18.Controls.Add(Me.Panel21)
-        Me.Panel18.Controls.Add(Me.Panel23)
-        Me.Panel18.Controls.Add(Me.Panel24)
-        Me.Panel18.Location = New System.Drawing.Point(925, 79)
-        Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(448, 264)
-        Me.Panel18.TabIndex = 11
         '
         'Panel3
         '
@@ -563,6 +758,27 @@ Partial Class frmLayout
         Me.Panel4.Size = New System.Drawing.Size(442, 108)
         Me.Panel4.TabIndex = 1
         '
+        'ILed7Segment1
+        '
+        Me.ILed7Segment1.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment1.ColorDark = System.Drawing.Color.Silver
+        Me.ILed7Segment1.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.ILed7Segment1.DecimalShow = True
+        Me.ILed7Segment1.DigitNumber = 4
+        Me.ILed7Segment1.Driver = Me.IDriver1
+        Me.ILed7Segment1.ElementPadding = New System.Windows.Forms.Padding(10)
+        Me.ILed7Segment1.ElementWidth = 10
+        Me.ILed7Segment1.ItalicFactor = -0.1!
+        Me.ILed7Segment1.Location = New System.Drawing.Point(116, 33)
+        Me.ILed7Segment1.Name = "ILed7Segment1"
+        Me.ILed7Segment1.Size = New System.Drawing.Size(215, 58)
+        Me.ILed7Segment1.TabIndex = 12
+        Me.ILed7Segment1.TabStop = False
+        Me.ILed7Segment1.TagName = "EnergyTotalTotal.kV1"
+        Me.ILed7Segment1.Text = "ILed7Segment1"
+        Me.ILed7Segment1.Value = "0"
+        '
         'Label12
         '
         Me.Label12.AutoSize = True
@@ -583,6 +799,27 @@ Partial Class frmLayout
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(213, 111)
         Me.Panel6.TabIndex = 2
+        '
+        'ILed7Segment4
+        '
+        Me.ILed7Segment4.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment4.ColorDark = System.Drawing.Color.Silver
+        Me.ILed7Segment4.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment4.Cursor = System.Windows.Forms.Cursors.Default
+        Me.ILed7Segment4.DecimalShow = True
+        Me.ILed7Segment4.DigitNumber = 4
+        Me.ILed7Segment4.Driver = Me.IDriver1
+        Me.ILed7Segment4.ElementPadding = New System.Windows.Forms.Padding(10)
+        Me.ILed7Segment4.ElementWidth = 10
+        Me.ILed7Segment4.ItalicFactor = -0.1!
+        Me.ILed7Segment4.Location = New System.Drawing.Point(23, 7)
+        Me.ILed7Segment4.Name = "ILed7Segment4"
+        Me.ILed7Segment4.Size = New System.Drawing.Size(168, 45)
+        Me.ILed7Segment4.TabIndex = 13
+        Me.ILed7Segment4.TabStop = False
+        Me.ILed7Segment4.TagName = "KV1DH1.Energy"
+        Me.ILed7Segment4.Text = "ILed7Segment4"
+        Me.ILed7Segment4.Value = "0"
         '
         'Label15
         '
@@ -624,6 +861,27 @@ Partial Class frmLayout
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(220, 111)
         Me.Panel7.TabIndex = 3
+        '
+        'ILed7Segment5
+        '
+        Me.ILed7Segment5.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment5.ColorDark = System.Drawing.Color.Silver
+        Me.ILed7Segment5.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment5.Cursor = System.Windows.Forms.Cursors.Default
+        Me.ILed7Segment5.DecimalShow = True
+        Me.ILed7Segment5.DigitNumber = 4
+        Me.ILed7Segment5.Driver = Me.IDriver1
+        Me.ILed7Segment5.ElementPadding = New System.Windows.Forms.Padding(10)
+        Me.ILed7Segment5.ElementWidth = 10
+        Me.ILed7Segment5.ItalicFactor = -0.1!
+        Me.ILed7Segment5.Location = New System.Drawing.Point(24, 5)
+        Me.ILed7Segment5.Name = "ILed7Segment5"
+        Me.ILed7Segment5.Size = New System.Drawing.Size(156, 45)
+        Me.ILed7Segment5.TabIndex = 13
+        Me.ILed7Segment5.TabStop = False
+        Me.ILed7Segment5.TagName = "KV1DH2.Energy"
+        Me.ILed7Segment5.Text = "ILed7Segment5"
+        Me.ILed7Segment5.Value = "0"
         '
         'Label10
         '
@@ -667,55 +925,126 @@ Partial Class frmLayout
         Me.Panel2.Size = New System.Drawing.Size(448, 264)
         Me.Panel2.TabIndex = 8
         '
-        'IDriver1
+        'IThreeRatePriceLogger1
         '
-        Me.IDriver1.Designmode = False
-        Me.IDriver1.GetTaskTimeOut = CType(5000UL, ULong)
-        Me.IDriver1.MaxTagWriteTimes = 10
-        Me.IDriver1.ProjectFile = Nothing
-        Me.IDriver1.WaitingTime = 3000
+        Me.IThreeRatePriceLogger1.CurrentPriceTagName = Nothing
+        Me.IThreeRatePriceLogger1.DatabaseLog.DatabaseName = "ems"
+        Me.IThreeRatePriceLogger1.DatabaseLog.Password = "femgne2005"
+        Me.IThreeRatePriceLogger1.DatabaseLog.ServerName = "localhost"
+        Me.IThreeRatePriceLogger1.DatabaseLog.TableName = "power_log"
+        Me.IThreeRatePriceLogger1.DatabaseLog.UserID = "root"
+        Me.IThreeRatePriceLogger1.DecimalPlaces = 3
+        Me.IThreeRatePriceLogger1.DeviceName = "Device"
+        Me.IThreeRatePriceLogger1.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
+        Me.IThreeRatePriceLogger1.Driver = Me.IDriver1
+        Me.IThreeRatePriceLogger1.GroupName = "Group"
+        Me.IThreeRatePriceLogger1.LogOnlyReset = True
+        Me.IThreeRatePriceLogger1.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
+        Me.IThreeRatePriceLogger1.PeakHourRate = "MoneyPriceRate.PeakHourRate"
+        Me.IThreeRatePriceLogger1.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger1.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
+        Me.IThreeRatePriceLogger1.PowerTagName = Nothing
+        Me.IThreeRatePriceLogger1.StandardHourRate = "MoneyPriceRate.StandardHourRate"
         '
-        'ILed7Segment1
+        'IThreeRatePriceLogger2
         '
-        Me.ILed7Segment1.ColorBackground = System.Drawing.SystemColors.ButtonFace
-        Me.ILed7Segment1.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment1.ColorLight = System.Drawing.Color.Blue
-        Me.ILed7Segment1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.ILed7Segment1.DecimalShow = True
-        Me.ILed7Segment1.DigitNumber = 4
-        Me.ILed7Segment1.Driver = Me.IDriver1
-        Me.ILed7Segment1.ElementPadding = New System.Windows.Forms.Padding(10)
-        Me.ILed7Segment1.ElementWidth = 10
-        Me.ILed7Segment1.ItalicFactor = -0.1!
-        Me.ILed7Segment1.Location = New System.Drawing.Point(116, 33)
-        Me.ILed7Segment1.Name = "ILed7Segment1"
-        Me.ILed7Segment1.Size = New System.Drawing.Size(215, 58)
-        Me.ILed7Segment1.TabIndex = 12
-        Me.ILed7Segment1.TabStop = False
-        Me.ILed7Segment1.TagName = "EnergyTotalTotal.kV1"
-        Me.ILed7Segment1.Text = "ILed7Segment1"
-        Me.ILed7Segment1.Value = "0"
+        Me.IThreeRatePriceLogger2.CurrentPriceTagName = Nothing
+        Me.IThreeRatePriceLogger2.DatabaseLog.DatabaseName = "ems"
+        Me.IThreeRatePriceLogger2.DatabaseLog.Password = "femgne2005"
+        Me.IThreeRatePriceLogger2.DatabaseLog.ServerName = "localhost"
+        Me.IThreeRatePriceLogger2.DatabaseLog.TableName = "power_log"
+        Me.IThreeRatePriceLogger2.DatabaseLog.UserID = "root"
+        Me.IThreeRatePriceLogger2.DecimalPlaces = 3
+        Me.IThreeRatePriceLogger2.DeviceName = "Device"
+        Me.IThreeRatePriceLogger2.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
+        Me.IThreeRatePriceLogger2.Driver = Me.IDriver1
+        Me.IThreeRatePriceLogger2.GroupName = "Group"
+        Me.IThreeRatePriceLogger2.LogOnlyReset = True
+        Me.IThreeRatePriceLogger2.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
+        Me.IThreeRatePriceLogger2.PeakHourRate = "MoneyPriceRate.PeakHourRate"
+        Me.IThreeRatePriceLogger2.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger2.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
+        Me.IThreeRatePriceLogger2.PowerTagName = Nothing
+        Me.IThreeRatePriceLogger2.StandardHourRate = "MoneyPriceRate.StandardHourRate"
         '
-        'ILed7Segment2
+        'IThreeRatePriceLogger3
         '
-        Me.ILed7Segment2.ColorBackground = System.Drawing.SystemColors.ButtonFace
-        Me.ILed7Segment2.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment2.ColorLight = System.Drawing.Color.Blue
-        Me.ILed7Segment2.Cursor = System.Windows.Forms.Cursors.Default
-        Me.ILed7Segment2.DecimalShow = True
-        Me.ILed7Segment2.DigitNumber = 4
-        Me.ILed7Segment2.Driver = Me.IDriver1
-        Me.ILed7Segment2.ElementPadding = New System.Windows.Forms.Padding(10)
-        Me.ILed7Segment2.ElementWidth = 10
-        Me.ILed7Segment2.ItalicFactor = -0.1!
-        Me.ILed7Segment2.Location = New System.Drawing.Point(116, 33)
-        Me.ILed7Segment2.Name = "ILed7Segment2"
-        Me.ILed7Segment2.Size = New System.Drawing.Size(214, 58)
-        Me.ILed7Segment2.TabIndex = 13
-        Me.ILed7Segment2.TabStop = False
-        Me.ILed7Segment2.TagName = "EnergyTotalTotal.KV2"
-        Me.ILed7Segment2.Text = "ILed7Segment2"
-        Me.ILed7Segment2.Value = "0"
+        Me.IThreeRatePriceLogger3.CurrentPriceTagName = Nothing
+        Me.IThreeRatePriceLogger3.DatabaseLog.DatabaseName = "ems"
+        Me.IThreeRatePriceLogger3.DatabaseLog.Password = "femgne2005"
+        Me.IThreeRatePriceLogger3.DatabaseLog.ServerName = "localhost"
+        Me.IThreeRatePriceLogger3.DatabaseLog.TableName = "power_log"
+        Me.IThreeRatePriceLogger3.DatabaseLog.UserID = "root"
+        Me.IThreeRatePriceLogger3.DecimalPlaces = 3
+        Me.IThreeRatePriceLogger3.DeviceName = "Device"
+        Me.IThreeRatePriceLogger3.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
+        Me.IThreeRatePriceLogger3.Driver = Me.IDriver1
+        Me.IThreeRatePriceLogger3.GroupName = "Group"
+        Me.IThreeRatePriceLogger3.LogOnlyReset = True
+        Me.IThreeRatePriceLogger3.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
+        Me.IThreeRatePriceLogger3.PeakHourRate = "MoneyPriceRate.PeakHourRate"
+        Me.IThreeRatePriceLogger3.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger3.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
+        Me.IThreeRatePriceLogger3.PowerTagName = Nothing
+        Me.IThreeRatePriceLogger3.StandardHourRate = "MoneyPriceRate.StandardHourRate"
+        '
+        'IThreeRatePriceLogger4
+        '
+        Me.IThreeRatePriceLogger4.CurrentPriceTagName = Nothing
+        Me.IThreeRatePriceLogger4.DatabaseLog.DatabaseName = "ems"
+        Me.IThreeRatePriceLogger4.DatabaseLog.Password = "femgne2005"
+        Me.IThreeRatePriceLogger4.DatabaseLog.ServerName = "localhost"
+        Me.IThreeRatePriceLogger4.DatabaseLog.TableName = "power_log"
+        Me.IThreeRatePriceLogger4.DatabaseLog.UserID = "root"
+        Me.IThreeRatePriceLogger4.DecimalPlaces = 3
+        Me.IThreeRatePriceLogger4.DeviceName = "Device"
+        Me.IThreeRatePriceLogger4.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
+        Me.IThreeRatePriceLogger4.Driver = Me.IDriver1
+        Me.IThreeRatePriceLogger4.GroupName = "Group"
+        Me.IThreeRatePriceLogger4.LogOnlyReset = True
+        Me.IThreeRatePriceLogger4.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
+        Me.IThreeRatePriceLogger4.PeakHourRate = "MoneyPriceRate.PeakHourRate"
+        Me.IThreeRatePriceLogger4.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger4.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
+        Me.IThreeRatePriceLogger4.PowerTagName = Nothing
+        Me.IThreeRatePriceLogger4.StandardHourRate = "MoneyPriceRate.StandardHourRate"
+        '
+        'IThreeRatePriceLogger5
+        '
+        Me.IThreeRatePriceLogger5.CurrentPriceTagName = Nothing
+        Me.IThreeRatePriceLogger5.DatabaseLog.DatabaseName = "ems"
+        Me.IThreeRatePriceLogger5.DatabaseLog.Password = "femgne2005"
+        Me.IThreeRatePriceLogger5.DatabaseLog.ServerName = "localhost"
+        Me.IThreeRatePriceLogger5.DatabaseLog.TableName = "power_log"
+        Me.IThreeRatePriceLogger5.DatabaseLog.UserID = "root"
+        Me.IThreeRatePriceLogger5.DecimalPlaces = 3
+        Me.IThreeRatePriceLogger5.DeviceName = "Device"
+        Me.IThreeRatePriceLogger5.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
+        Me.IThreeRatePriceLogger5.Driver = Me.IDriver1
+        Me.IThreeRatePriceLogger5.GroupName = "Group"
+        Me.IThreeRatePriceLogger5.LogOnlyReset = True
+        Me.IThreeRatePriceLogger5.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
+        Me.IThreeRatePriceLogger5.PeakHourRate = "MoneyPriceRate.PeakHourRate"
+        Me.IThreeRatePriceLogger5.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger5.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
+        Me.IThreeRatePriceLogger5.PowerTagName = Nothing
+        Me.IThreeRatePriceLogger5.StandardHourRate = "MoneyPriceRate.StandardHourRate"
+        '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.Panel18)
+        Me.Panel1.Controls.Add(Me.Panel20)
+        Me.Panel1.Controls.Add(Me.Panel22)
+        Me.Panel1.Controls.Add(Me.Panel23)
+        Me.Panel1.Location = New System.Drawing.Point(928, 76)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(448, 264)
+        Me.Panel1.TabIndex = 11
+        '
+        'Panel18
+        '
+        Me.Panel18.Controls.Add(Me.ILed7Segment3)
+        Me.Panel18.Controls.Add(Me.Label3)
+        Me.Panel18.Controls.Add(Me.Panel19)
+        Me.Panel18.Location = New System.Drawing.Point(220, 147)
+        Me.Panel18.Name = "Panel18"
+        Me.Panel18.Size = New System.Drawing.Size(220, 111)
+        Me.Panel18.TabIndex = 3
         '
         'ILed7Segment3
         '
@@ -729,98 +1058,55 @@ Partial Class frmLayout
         Me.ILed7Segment3.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment3.ElementWidth = 10
         Me.ILed7Segment3.ItalicFactor = -0.1!
-        Me.ILed7Segment3.Location = New System.Drawing.Point(117, 33)
+        Me.ILed7Segment3.Location = New System.Drawing.Point(21, 3)
         Me.ILed7Segment3.Name = "ILed7Segment3"
-        Me.ILed7Segment3.Size = New System.Drawing.Size(217, 58)
+        Me.ILed7Segment3.Size = New System.Drawing.Size(169, 48)
         Me.ILed7Segment3.TabIndex = 13
         Me.ILed7Segment3.TabStop = False
-        Me.ILed7Segment3.TagName = "EnergyTotalTotal.KV3"
+        Me.ILed7Segment3.TagName = "KV3DH6.Energy"
         Me.ILed7Segment3.Text = "ILed7Segment3"
         Me.ILed7Segment3.Value = "0"
         '
-        'ILed7Segment4
+        'Label3
         '
-        Me.ILed7Segment4.ColorBackground = System.Drawing.SystemColors.ButtonFace
-        Me.ILed7Segment4.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment4.ColorLight = System.Drawing.Color.Blue
-        Me.ILed7Segment4.Cursor = System.Windows.Forms.Cursors.Default
-        Me.ILed7Segment4.DecimalShow = True
-        Me.ILed7Segment4.DigitNumber = 4
-        Me.ILed7Segment4.Driver = Me.IDriver1
-        Me.ILed7Segment4.ElementPadding = New System.Windows.Forms.Padding(10)
-        Me.ILed7Segment4.ElementWidth = 10
-        Me.ILed7Segment4.ItalicFactor = -0.1!
-        Me.ILed7Segment4.Location = New System.Drawing.Point(23, 7)
-        Me.ILed7Segment4.Name = "ILed7Segment4"
-        Me.ILed7Segment4.Size = New System.Drawing.Size(168, 45)
-        Me.ILed7Segment4.TabIndex = 13
-        Me.ILed7Segment4.TabStop = False
-        Me.ILed7Segment4.TagName = "KV1DH1.Energy"
-        Me.ILed7Segment4.Text = "ILed7Segment4"
-        Me.ILed7Segment4.Value = "0"
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Malgun Gothic", 10.2!)
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(56, 53)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(103, 23)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "Energy PM4"
         '
-        'ILed7Segment5
+        'Panel19
         '
-        Me.ILed7Segment5.ColorBackground = System.Drawing.SystemColors.ButtonFace
-        Me.ILed7Segment5.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment5.ColorLight = System.Drawing.Color.Blue
-        Me.ILed7Segment5.Cursor = System.Windows.Forms.Cursors.Default
-        Me.ILed7Segment5.DecimalShow = True
-        Me.ILed7Segment5.DigitNumber = 4
-        Me.ILed7Segment5.Driver = Me.IDriver1
-        Me.ILed7Segment5.ElementPadding = New System.Windows.Forms.Padding(10)
-        Me.ILed7Segment5.ElementWidth = 10
-        Me.ILed7Segment5.ItalicFactor = -0.1!
-        Me.ILed7Segment5.Location = New System.Drawing.Point(24, 5)
-        Me.ILed7Segment5.Name = "ILed7Segment5"
-        Me.ILed7Segment5.Size = New System.Drawing.Size(156, 45)
-        Me.ILed7Segment5.TabIndex = 13
-        Me.ILed7Segment5.TabStop = False
-        Me.ILed7Segment5.TagName = "KV1DH2.Energy"
-        Me.ILed7Segment5.Text = "ILed7Segment5"
-        Me.ILed7Segment5.Value = "0"
+        Me.Panel19.BackColor = System.Drawing.Color.Navy
+        Me.Panel19.Controls.Add(Me.Label4)
+        Me.Panel19.ForeColor = System.Drawing.Color.White
+        Me.Panel19.Location = New System.Drawing.Point(-1, 79)
+        Me.Panel19.Name = "Panel19"
+        Me.Panel19.Size = New System.Drawing.Size(218, 29)
+        Me.Panel19.TabIndex = 1
         '
-        'ILed7Segment6
+        'Label4
         '
-        Me.ILed7Segment6.ColorBackground = System.Drawing.SystemColors.ButtonFace
-        Me.ILed7Segment6.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment6.ColorLight = System.Drawing.Color.Blue
-        Me.ILed7Segment6.Cursor = System.Windows.Forms.Cursors.Default
-        Me.ILed7Segment6.DecimalShow = True
-        Me.ILed7Segment6.DigitNumber = 4
-        Me.ILed7Segment6.Driver = Me.IDriver1
-        Me.ILed7Segment6.ElementPadding = New System.Windows.Forms.Padding(10)
-        Me.ILed7Segment6.ElementWidth = 10
-        Me.ILed7Segment6.ItalicFactor = -0.1!
-        Me.ILed7Segment6.Location = New System.Drawing.Point(25, 5)
-        Me.ILed7Segment6.Name = "ILed7Segment6"
-        Me.ILed7Segment6.Size = New System.Drawing.Size(166, 45)
-        Me.ILed7Segment6.TabIndex = 13
-        Me.ILed7Segment6.TabStop = False
-        Me.ILed7Segment6.TagName = "KV2DH3.Energy"
-        Me.ILed7Segment6.Text = "ILed7Segment6"
-        Me.ILed7Segment6.Value = "0"
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Malgun Gothic", 10.2!, System.Drawing.FontStyle.Bold)
+        Me.Label4.Location = New System.Drawing.Point(35, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(125, 23)
+        Me.Label4.TabIndex = 0
+        Me.Label4.Text = "PowerMeter 4"
         '
-        'ILed7Segment7
+        'Panel20
         '
-        Me.ILed7Segment7.ColorBackground = System.Drawing.SystemColors.ButtonFace
-        Me.ILed7Segment7.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment7.ColorLight = System.Drawing.Color.Blue
-        Me.ILed7Segment7.Cursor = System.Windows.Forms.Cursors.Default
-        Me.ILed7Segment7.DecimalShow = True
-        Me.ILed7Segment7.DigitNumber = 4
-        Me.ILed7Segment7.Driver = Me.IDriver1
-        Me.ILed7Segment7.ElementPadding = New System.Windows.Forms.Padding(10)
-        Me.ILed7Segment7.ElementWidth = 10
-        Me.ILed7Segment7.ItalicFactor = -0.1!
-        Me.ILed7Segment7.Location = New System.Drawing.Point(21, 3)
-        Me.ILed7Segment7.Name = "ILed7Segment7"
-        Me.ILed7Segment7.Size = New System.Drawing.Size(169, 48)
-        Me.ILed7Segment7.TabIndex = 13
-        Me.ILed7Segment7.TabStop = False
-        Me.ILed7Segment7.TagName = "KV2DH4.Energy"
-        Me.ILed7Segment7.Text = "ILed7Segment7"
-        Me.ILed7Segment7.Value = "0"
+        Me.Panel20.Controls.Add(Me.ILed7Segment8)
+        Me.Panel20.Controls.Add(Me.Label5)
+        Me.Panel20.Controls.Add(Me.Panel21)
+        Me.Panel20.Location = New System.Drawing.Point(3, 147)
+        Me.Panel20.Name = "Panel20"
+        Me.Panel20.Size = New System.Drawing.Size(213, 111)
+        Me.Panel20.TabIndex = 2
         '
         'ILed7Segment8
         '
@@ -834,14 +1120,54 @@ Partial Class frmLayout
         Me.ILed7Segment8.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment8.ElementWidth = 10
         Me.ILed7Segment8.ItalicFactor = -0.1!
-        Me.ILed7Segment8.Location = New System.Drawing.Point(25, 3)
+        Me.ILed7Segment8.Location = New System.Drawing.Point(25, 5)
         Me.ILed7Segment8.Name = "ILed7Segment8"
-        Me.ILed7Segment8.Size = New System.Drawing.Size(167, 47)
+        Me.ILed7Segment8.Size = New System.Drawing.Size(166, 45)
         Me.ILed7Segment8.TabIndex = 13
         Me.ILed7Segment8.TabStop = False
         Me.ILed7Segment8.TagName = "KV3DH5.Energy"
         Me.ILed7Segment8.Text = "ILed7Segment8"
         Me.ILed7Segment8.Value = "0"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Malgun Gothic", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(52, 53)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(103, 23)
+        Me.Label5.TabIndex = 0
+        Me.Label5.Text = "Energy PM3"
+        '
+        'Panel21
+        '
+        Me.Panel21.BackColor = System.Drawing.Color.Navy
+        Me.Panel21.Controls.Add(Me.Label6)
+        Me.Panel21.ForeColor = System.Drawing.Color.White
+        Me.Panel21.Location = New System.Drawing.Point(3, 79)
+        Me.Panel21.Name = "Panel21"
+        Me.Panel21.Size = New System.Drawing.Size(207, 29)
+        Me.Panel21.TabIndex = 0
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Malgun Gothic", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(37, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(125, 23)
+        Me.Label6.TabIndex = 0
+        Me.Label6.Text = "PowerMeter 3"
+        '
+        'Panel22
+        '
+        Me.Panel22.Controls.Add(Me.ILed7Segment9)
+        Me.Panel22.Controls.Add(Me.Label9)
+        Me.Panel22.Location = New System.Drawing.Point(3, 36)
+        Me.Panel22.Name = "Panel22"
+        Me.Panel22.Size = New System.Drawing.Size(442, 108)
+        Me.Panel22.TabIndex = 1
         '
         'ILed7Segment9
         '
@@ -855,266 +1181,47 @@ Partial Class frmLayout
         Me.ILed7Segment9.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment9.ElementWidth = 10
         Me.ILed7Segment9.ItalicFactor = -0.1!
-        Me.ILed7Segment9.Location = New System.Drawing.Point(14, 4)
+        Me.ILed7Segment9.Location = New System.Drawing.Point(116, 33)
         Me.ILed7Segment9.Name = "ILed7Segment9"
-        Me.ILed7Segment9.Size = New System.Drawing.Size(183, 47)
-        Me.ILed7Segment9.TabIndex = 14
+        Me.ILed7Segment9.Size = New System.Drawing.Size(214, 58)
+        Me.ILed7Segment9.TabIndex = 13
         Me.ILed7Segment9.TabStop = False
-        Me.ILed7Segment9.TagName = "KV3DH6.Energy"
+        Me.ILed7Segment9.TagName = "EnergyTotalTotal.KV3"
         Me.ILed7Segment9.Text = "ILed7Segment9"
         Me.ILed7Segment9.Value = "0"
         '
-        'IGauge1
+        'Label9
         '
-        Me.IGauge1.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge1.BodyColor = System.Drawing.Color.Blue
-        Me.IGauge1.Driver = Me.IDriver1
-        Me.IGauge1.Location = New System.Drawing.Point(26, 0)
-        Me.IGauge1.MaxValue = 100.0R
-        Me.IGauge1.MinValue = 0R
-        Me.IGauge1.Name = "IGauge1"
-        Me.IGauge1.NeedleColor = System.Drawing.Color.Red
-        Me.IGauge1.Renderer = Nothing
-        Me.IGauge1.ScaleColor = System.Drawing.Color.White
-        Me.IGauge1.ScaleDivisions = 6
-        Me.IGauge1.ScaleSubDivisions = 10
-        Me.IGauge1.Size = New System.Drawing.Size(168, 166)
-        Me.IGauge1.TabIndex = 1
-        Me.IGauge1.TagName = "KV1DH1.Voltage"
-        Me.IGauge1.Text = "IGauge1"
-        Me.IGauge1.Value = 50.0R
-        Me.IGauge1.ViewGlass = False
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Malgun Gothic", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label9.Location = New System.Drawing.Point(127, 5)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(165, 25)
+        Me.Label9.TabIndex = 0
+        Me.Label9.Text = "Energy Total (kWh)"
         '
-        'IGauge2
+        'Panel23
         '
-        Me.IGauge2.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge2.BodyColor = System.Drawing.Color.Blue
-        Me.IGauge2.Driver = Me.IDriver1
-        Me.IGauge2.Location = New System.Drawing.Point(263, 3)
-        Me.IGauge2.MaxValue = 100.0R
-        Me.IGauge2.MinValue = 0R
-        Me.IGauge2.Name = "IGauge2"
-        Me.IGauge2.NeedleColor = System.Drawing.Color.Red
-        Me.IGauge2.Renderer = Nothing
-        Me.IGauge2.ScaleColor = System.Drawing.Color.White
-        Me.IGauge2.ScaleDivisions = 6
-        Me.IGauge2.ScaleSubDivisions = 10
-        Me.IGauge2.Size = New System.Drawing.Size(168, 166)
-        Me.IGauge2.TabIndex = 1
-        Me.IGauge2.TagName = "KV1DH2.Voltage"
-        Me.IGauge2.Text = "IGauge1"
-        Me.IGauge2.Value = 50.0R
-        Me.IGauge2.ViewGlass = False
+        Me.Panel23.BackColor = System.Drawing.Color.Navy
+        Me.Panel23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel23.Controls.Add(Me.Label13)
+        Me.Panel23.Font = New System.Drawing.Font("Malgun Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel23.ForeColor = System.Drawing.Color.White
+        Me.Panel23.Location = New System.Drawing.Point(3, 3)
+        Me.Panel23.Name = "Panel23"
+        Me.Panel23.Size = New System.Drawing.Size(445, 35)
+        Me.Panel23.TabIndex = 0
         '
-        'IGauge3
+        'Label13
         '
-        Me.IGauge3.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge3.BodyColor = System.Drawing.Color.Blue
-        Me.IGauge3.Driver = Me.IDriver1
-        Me.IGauge3.Location = New System.Drawing.Point(6, 3)
-        Me.IGauge3.MaxValue = 100.0R
-        Me.IGauge3.MinValue = 0R
-        Me.IGauge3.Name = "IGauge3"
-        Me.IGauge3.NeedleColor = System.Drawing.Color.Red
-        Me.IGauge3.Renderer = Nothing
-        Me.IGauge3.ScaleColor = System.Drawing.Color.White
-        Me.IGauge3.ScaleDivisions = 6
-        Me.IGauge3.ScaleSubDivisions = 10
-        Me.IGauge3.Size = New System.Drawing.Size(168, 166)
-        Me.IGauge3.TabIndex = 2
-        Me.IGauge3.TagName = "KV2DH3.Voltage"
-        Me.IGauge3.Text = "IGauge1"
-        Me.IGauge3.Value = 50.0R
-        Me.IGauge3.ViewGlass = False
-        '
-        'IGauge4
-        '
-        Me.IGauge4.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge4.BodyColor = System.Drawing.Color.Blue
-        Me.IGauge4.Driver = Me.IDriver1
-        Me.IGauge4.Location = New System.Drawing.Point(272, 3)
-        Me.IGauge4.MaxValue = 100.0R
-        Me.IGauge4.MinValue = 0R
-        Me.IGauge4.Name = "IGauge4"
-        Me.IGauge4.NeedleColor = System.Drawing.Color.Red
-        Me.IGauge4.Renderer = Nothing
-        Me.IGauge4.ScaleColor = System.Drawing.Color.White
-        Me.IGauge4.ScaleDivisions = 6
-        Me.IGauge4.ScaleSubDivisions = 10
-        Me.IGauge4.Size = New System.Drawing.Size(168, 166)
-        Me.IGauge4.TabIndex = 3
-        Me.IGauge4.TagName = "KV2DH4.Voltage"
-        Me.IGauge4.Text = "IGauge1"
-        Me.IGauge4.Value = 50.0R
-        Me.IGauge4.ViewGlass = False
-        '
-        'IGauge5
-        '
-        Me.IGauge5.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge5.BodyColor = System.Drawing.Color.Blue
-        Me.IGauge5.Driver = Me.IDriver1
-        Me.IGauge5.Location = New System.Drawing.Point(3, 3)
-        Me.IGauge5.MaxValue = 100.0R
-        Me.IGauge5.MinValue = 0R
-        Me.IGauge5.Name = "IGauge5"
-        Me.IGauge5.NeedleColor = System.Drawing.Color.Red
-        Me.IGauge5.Renderer = Nothing
-        Me.IGauge5.ScaleColor = System.Drawing.Color.White
-        Me.IGauge5.ScaleDivisions = 6
-        Me.IGauge5.ScaleSubDivisions = 10
-        Me.IGauge5.Size = New System.Drawing.Size(168, 166)
-        Me.IGauge5.TabIndex = 4
-        Me.IGauge5.TagName = "KV3DH5.Voltage"
-        Me.IGauge5.Text = "IGauge1"
-        Me.IGauge5.Value = 50.0R
-        Me.IGauge5.ViewGlass = False
-        '
-        'IGauge6
-        '
-        Me.IGauge6.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge6.BodyColor = System.Drawing.Color.Blue
-        Me.IGauge6.Driver = Me.IDriver1
-        Me.IGauge6.Location = New System.Drawing.Point(277, 3)
-        Me.IGauge6.MaxValue = 100.0R
-        Me.IGauge6.MinValue = 0R
-        Me.IGauge6.Name = "IGauge6"
-        Me.IGauge6.NeedleColor = System.Drawing.Color.Red
-        Me.IGauge6.Renderer = Nothing
-        Me.IGauge6.ScaleColor = System.Drawing.Color.White
-        Me.IGauge6.ScaleDivisions = 6
-        Me.IGauge6.ScaleSubDivisions = 10
-        Me.IGauge6.Size = New System.Drawing.Size(168, 166)
-        Me.IGauge6.TabIndex = 5
-        Me.IGauge6.TagName = "KV3DH6.Voltage"
-        Me.IGauge6.Text = "IGauge1"
-        Me.IGauge6.Value = 50.0R
-        Me.IGauge6.ViewGlass = False
-        '
-        'IGauge7
-        '
-        Me.IGauge7.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge7.BodyColor = System.Drawing.Color.Blue
-        Me.IGauge7.Driver = Me.IDriver1
-        Me.IGauge7.Location = New System.Drawing.Point(277, 3)
-        Me.IGauge7.MaxValue = 100.0R
-        Me.IGauge7.MinValue = 0R
-        Me.IGauge7.Name = "IGauge7"
-        Me.IGauge7.NeedleColor = System.Drawing.Color.Red
-        Me.IGauge7.Renderer = Nothing
-        Me.IGauge7.ScaleColor = System.Drawing.Color.White
-        Me.IGauge7.ScaleDivisions = 6
-        Me.IGauge7.ScaleSubDivisions = 10
-        Me.IGauge7.Size = New System.Drawing.Size(168, 166)
-        Me.IGauge7.TabIndex = 2
-        Me.IGauge7.TagName = "KV3DH6.Current"
-        Me.IGauge7.Text = "IGauge1"
-        Me.IGauge7.Value = 50.0R
-        Me.IGauge7.ViewGlass = False
-        '
-        'IGauge8
-        '
-        Me.IGauge8.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge8.BodyColor = System.Drawing.Color.Blue
-        Me.IGauge8.Driver = Me.IDriver1
-        Me.IGauge8.Location = New System.Drawing.Point(3, 3)
-        Me.IGauge8.MaxValue = 100.0R
-        Me.IGauge8.MinValue = 0R
-        Me.IGauge8.Name = "IGauge8"
-        Me.IGauge8.NeedleColor = System.Drawing.Color.Red
-        Me.IGauge8.Renderer = Nothing
-        Me.IGauge8.ScaleColor = System.Drawing.Color.White
-        Me.IGauge8.ScaleDivisions = 6
-        Me.IGauge8.ScaleSubDivisions = 10
-        Me.IGauge8.Size = New System.Drawing.Size(168, 166)
-        Me.IGauge8.TabIndex = 3
-        Me.IGauge8.TagName = "KV3DH5.Current"
-        Me.IGauge8.Text = "IGauge1"
-        Me.IGauge8.Value = 50.0R
-        Me.IGauge8.ViewGlass = False
-        '
-        'IGauge9
-        '
-        Me.IGauge9.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge9.BodyColor = System.Drawing.Color.Blue
-        Me.IGauge9.Driver = Me.IDriver1
-        Me.IGauge9.Location = New System.Drawing.Point(3, 3)
-        Me.IGauge9.MaxValue = 100.0R
-        Me.IGauge9.MinValue = 0R
-        Me.IGauge9.Name = "IGauge9"
-        Me.IGauge9.NeedleColor = System.Drawing.Color.Red
-        Me.IGauge9.Renderer = Nothing
-        Me.IGauge9.ScaleColor = System.Drawing.Color.White
-        Me.IGauge9.ScaleDivisions = 6
-        Me.IGauge9.ScaleSubDivisions = 10
-        Me.IGauge9.Size = New System.Drawing.Size(168, 166)
-        Me.IGauge9.TabIndex = 2
-        Me.IGauge9.TagName = "KV2DH3.Current"
-        Me.IGauge9.Text = "IGauge1"
-        Me.IGauge9.Value = 50.0R
-        Me.IGauge9.ViewGlass = False
-        '
-        'IGauge10
-        '
-        Me.IGauge10.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge10.BodyColor = System.Drawing.Color.Blue
-        Me.IGauge10.Driver = Me.IDriver1
-        Me.IGauge10.Location = New System.Drawing.Point(277, 3)
-        Me.IGauge10.MaxValue = 100.0R
-        Me.IGauge10.MinValue = 0R
-        Me.IGauge10.Name = "IGauge10"
-        Me.IGauge10.NeedleColor = System.Drawing.Color.Red
-        Me.IGauge10.Renderer = Nothing
-        Me.IGauge10.ScaleColor = System.Drawing.Color.White
-        Me.IGauge10.ScaleDivisions = 6
-        Me.IGauge10.ScaleSubDivisions = 10
-        Me.IGauge10.Size = New System.Drawing.Size(168, 166)
-        Me.IGauge10.TabIndex = 3
-        Me.IGauge10.TagName = "KV2DH4.Current"
-        Me.IGauge10.Text = "IGauge1"
-        Me.IGauge10.Value = 50.0R
-        Me.IGauge10.ViewGlass = False
-        '
-        'IGauge11
-        '
-        Me.IGauge11.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge11.BodyColor = System.Drawing.Color.Blue
-        Me.IGauge11.Driver = Me.IDriver1
-        Me.IGauge11.Location = New System.Drawing.Point(3, 3)
-        Me.IGauge11.MaxValue = 100.0R
-        Me.IGauge11.MinValue = 0R
-        Me.IGauge11.Name = "IGauge11"
-        Me.IGauge11.NeedleColor = System.Drawing.Color.Red
-        Me.IGauge11.Renderer = Nothing
-        Me.IGauge11.ScaleColor = System.Drawing.Color.White
-        Me.IGauge11.ScaleDivisions = 6
-        Me.IGauge11.ScaleSubDivisions = 10
-        Me.IGauge11.Size = New System.Drawing.Size(168, 166)
-        Me.IGauge11.TabIndex = 2
-        Me.IGauge11.TagName = "KV1DH1.Current"
-        Me.IGauge11.Text = "IGauge1"
-        Me.IGauge11.Value = 50.0R
-        Me.IGauge11.ViewGlass = False
-        '
-        'IGauge12
-        '
-        Me.IGauge12.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge12.BodyColor = System.Drawing.Color.Blue
-        Me.IGauge12.Driver = Me.IDriver1
-        Me.IGauge12.Location = New System.Drawing.Point(277, 3)
-        Me.IGauge12.MaxValue = 100.0R
-        Me.IGauge12.MinValue = 0R
-        Me.IGauge12.Name = "IGauge12"
-        Me.IGauge12.NeedleColor = System.Drawing.Color.Red
-        Me.IGauge12.Renderer = Nothing
-        Me.IGauge12.ScaleColor = System.Drawing.Color.White
-        Me.IGauge12.ScaleDivisions = 6
-        Me.IGauge12.ScaleSubDivisions = 10
-        Me.IGauge12.Size = New System.Drawing.Size(168, 166)
-        Me.IGauge12.TabIndex = 3
-        Me.IGauge12.TagName = "KV1DH2.Current"
-        Me.IGauge12.Text = "IGauge1"
-        Me.IGauge12.Value = 50.0R
-        Me.IGauge12.ViewGlass = False
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Malgun Gothic", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(167, 6)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(63, 23)
+        Me.Label13.TabIndex = 0
+        Me.Label13.Text = "Area 2"
         '
         'frmLayout
         '
@@ -1122,7 +1229,7 @@ Partial Class frmLayout
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1380, 787)
-        Me.Controls.Add(Me.Panel18)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Panel5)
         Me.Controls.Add(Me.Panel28)
         Me.Controls.Add(Me.Panel26)
@@ -1159,19 +1266,6 @@ Partial Class frmLayout
         Me.Panel26.PerformLayout()
         Me.Panel27.ResumeLayout(False)
         Me.Panel27.PerformLayout()
-        Me.Panel24.ResumeLayout(False)
-        Me.Panel24.PerformLayout()
-        Me.Panel23.ResumeLayout(False)
-        Me.Panel23.PerformLayout()
-        Me.Panel21.ResumeLayout(False)
-        Me.Panel21.PerformLayout()
-        Me.Panel22.ResumeLayout(False)
-        Me.Panel22.PerformLayout()
-        Me.Panel19.ResumeLayout(False)
-        Me.Panel19.PerformLayout()
-        Me.Panel20.ResumeLayout(False)
-        Me.Panel20.PerformLayout()
-        Me.Panel18.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         Me.Panel4.ResumeLayout(False)
@@ -1185,6 +1279,19 @@ Partial Class frmLayout
         Me.Panel9.ResumeLayout(False)
         Me.Panel9.PerformLayout()
         Me.Panel2.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel18.ResumeLayout(False)
+        Me.Panel18.PerformLayout()
+        Me.Panel19.ResumeLayout(False)
+        Me.Panel19.PerformLayout()
+        Me.Panel20.ResumeLayout(False)
+        Me.Panel20.PerformLayout()
+        Me.Panel21.ResumeLayout(False)
+        Me.Panel21.PerformLayout()
+        Me.Panel22.ResumeLayout(False)
+        Me.Panel22.PerformLayout()
+        Me.Panel23.ResumeLayout(False)
+        Me.Panel23.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1216,19 +1323,6 @@ Partial Class frmLayout
     Friend WithEvents Label35 As Label
     Friend WithEvents Panel27 As Panel
     Friend WithEvents Label36 As Label
-    Friend WithEvents Panel24 As Panel
-    Friend WithEvents Label33 As Label
-    Friend WithEvents Panel23 As Panel
-    Friend WithEvents Label32 As Label
-    Friend WithEvents Panel21 As Panel
-    Friend WithEvents Label28 As Label
-    Friend WithEvents Panel22 As Panel
-    Friend WithEvents Label29 As Label
-    Friend WithEvents Panel19 As Panel
-    Friend WithEvents Label25 As Label
-    Friend WithEvents Panel20 As Panel
-    Friend WithEvents Label26 As Label
-    Friend WithEvents Panel18 As Panel
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label2 As Label
     Friend WithEvents Panel4 As Panel
@@ -1247,9 +1341,6 @@ Partial Class frmLayout
     Friend WithEvents ILed7Segment7 As ATSCADA.iGraphicTools.Led.iLed7Segment
     Friend WithEvents ILed7Segment6 As ATSCADA.iGraphicTools.Led.iLed7Segment
     Friend WithEvents ILed7Segment2 As ATSCADA.iGraphicTools.Led.iLed7Segment
-    Friend WithEvents ILed7Segment3 As ATSCADA.iGraphicTools.Led.iLed7Segment
-    Friend WithEvents ILed7Segment8 As ATSCADA.iGraphicTools.Led.iLed7Segment
-    Friend WithEvents ILed7Segment9 As ATSCADA.iGraphicTools.Led.iLed7Segment
     Friend WithEvents ILed7Segment4 As ATSCADA.iGraphicTools.Led.iLed7Segment
     Friend WithEvents ILed7Segment5 As ATSCADA.iGraphicTools.Led.iLed7Segment
     Friend WithEvents IGauge1 As ATSCADA.iGraphicTools.Gauge.iGauge
@@ -1264,4 +1355,25 @@ Partial Class frmLayout
     Friend WithEvents IGauge9 As ATSCADA.iGraphicTools.Gauge.iGauge
     Friend WithEvents IGauge6 As ATSCADA.iGraphicTools.Gauge.iGauge
     Friend WithEvents IGauge5 As ATSCADA.iGraphicTools.Gauge.iGauge
+    Friend WithEvents IThreeRatePriceLogger1 As ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger
+    Friend WithEvents IThreeRatePriceLogger2 As ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger
+    Friend WithEvents IThreeRatePriceLogger3 As ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger
+    Friend WithEvents IThreeRatePriceLogger4 As ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger
+    Friend WithEvents IThreeRatePriceLogger5 As ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Panel18 As Panel
+    Friend WithEvents ILed7Segment3 As ATSCADA.iGraphicTools.Led.iLed7Segment
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Panel19 As Panel
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Panel20 As Panel
+    Friend WithEvents ILed7Segment8 As ATSCADA.iGraphicTools.Led.iLed7Segment
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Panel21 As Panel
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Panel22 As Panel
+    Friend WithEvents ILed7Segment9 As ATSCADA.iGraphicTools.Led.iLed7Segment
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Panel23 As Panel
+    Friend WithEvents Label13 As Label
 End Class
