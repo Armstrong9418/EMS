@@ -103,6 +103,8 @@ Partial Class frmLayout
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Panel23 = New System.Windows.Forms.Panel()
         Me.Label13 = New System.Windows.Forms.Label()
+        Me.IThreeRatePriceLogger6 = New ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger(Me.components)
+        Me.IWebService1 = New ATSCADA.WebService.iWebService(Me.components)
         Me.Panel28.SuspendLayout()
         Me.Panel12.SuspendLayout()
         Me.Panel13.SuspendLayout()
@@ -145,7 +147,7 @@ Partial Class frmLayout
         'IGauge8
         '
         Me.IGauge8.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge8.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge8.BodyColor = System.Drawing.Color.Beige
         Me.IGauge8.Driver = Me.IDriver1
         Me.IGauge8.Location = New System.Drawing.Point(3, 3)
         Me.IGauge8.MaxValue = 100.0R
@@ -174,7 +176,7 @@ Partial Class frmLayout
         'IGauge7
         '
         Me.IGauge7.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge7.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge7.BodyColor = System.Drawing.Color.Beige
         Me.IGauge7.Driver = Me.IDriver1
         Me.IGauge7.Location = New System.Drawing.Point(277, 3)
         Me.IGauge7.MaxValue = 100.0R
@@ -215,9 +217,9 @@ Partial Class frmLayout
         '
         'ILed7Segment7
         '
-        Me.ILed7Segment7.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment7.ColorBackground = System.Drawing.SystemColors.ActiveCaptionText
         Me.ILed7Segment7.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment7.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment7.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment7.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment7.DecimalShow = True
         Me.ILed7Segment7.DigitNumber = 4
@@ -225,9 +227,9 @@ Partial Class frmLayout
         Me.ILed7Segment7.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment7.ElementWidth = 10
         Me.ILed7Segment7.ItalicFactor = -0.1!
-        Me.ILed7Segment7.Location = New System.Drawing.Point(21, 3)
+        Me.ILed7Segment7.Location = New System.Drawing.Point(3, 5)
         Me.ILed7Segment7.Name = "ILed7Segment7"
-        Me.ILed7Segment7.Size = New System.Drawing.Size(169, 48)
+        Me.ILed7Segment7.Size = New System.Drawing.Size(214, 48)
         Me.ILed7Segment7.TabIndex = 13
         Me.ILed7Segment7.TabStop = False
         Me.ILed7Segment7.TagName = "KV2DH4.Energy"
@@ -288,9 +290,9 @@ Partial Class frmLayout
         '
         'ILed7Segment6
         '
-        Me.ILed7Segment6.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment6.ColorBackground = System.Drawing.SystemColors.ActiveCaptionText
         Me.ILed7Segment6.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment6.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment6.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment6.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment6.DecimalShow = True
         Me.ILed7Segment6.DigitNumber = 4
@@ -298,9 +300,9 @@ Partial Class frmLayout
         Me.ILed7Segment6.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment6.ElementWidth = 10
         Me.ILed7Segment6.ItalicFactor = -0.1!
-        Me.ILed7Segment6.Location = New System.Drawing.Point(25, 5)
+        Me.ILed7Segment6.Location = New System.Drawing.Point(3, 5)
         Me.ILed7Segment6.Name = "ILed7Segment6"
-        Me.ILed7Segment6.Size = New System.Drawing.Size(166, 45)
+        Me.ILed7Segment6.Size = New System.Drawing.Size(207, 45)
         Me.ILed7Segment6.TabIndex = 13
         Me.ILed7Segment6.TabStop = False
         Me.ILed7Segment6.TagName = "KV2DH3.Energy"
@@ -349,9 +351,9 @@ Partial Class frmLayout
         '
         'ILed7Segment2
         '
-        Me.ILed7Segment2.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment2.ColorBackground = System.Drawing.SystemColors.ActiveCaptionText
         Me.ILed7Segment2.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment2.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment2.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment2.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment2.DecimalShow = True
         Me.ILed7Segment2.DigitNumber = 4
@@ -359,9 +361,9 @@ Partial Class frmLayout
         Me.ILed7Segment2.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment2.ElementWidth = 10
         Me.ILed7Segment2.ItalicFactor = -0.1!
-        Me.ILed7Segment2.Location = New System.Drawing.Point(116, 33)
+        Me.ILed7Segment2.Location = New System.Drawing.Point(94, 33)
         Me.ILed7Segment2.Name = "ILed7Segment2"
-        Me.ILed7Segment2.Size = New System.Drawing.Size(214, 58)
+        Me.ILed7Segment2.Size = New System.Drawing.Size(264, 58)
         Me.ILed7Segment2.TabIndex = 13
         Me.ILed7Segment2.TabStop = False
         Me.ILed7Segment2.TagName = "EnergyTotalTotal.KV2"
@@ -414,7 +416,7 @@ Partial Class frmLayout
         'IGauge2
         '
         Me.IGauge2.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge2.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge2.BodyColor = System.Drawing.Color.Beige
         Me.IGauge2.Driver = Me.IDriver1
         Me.IGauge2.Location = New System.Drawing.Point(263, 3)
         Me.IGauge2.MaxValue = 100.0R
@@ -435,7 +437,7 @@ Partial Class frmLayout
         'IGauge1
         '
         Me.IGauge1.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge1.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge1.BodyColor = System.Drawing.Color.Beige
         Me.IGauge1.Driver = Me.IDriver1
         Me.IGauge1.Location = New System.Drawing.Point(26, 0)
         Me.IGauge1.MaxValue = 100.0R
@@ -488,7 +490,7 @@ Partial Class frmLayout
         'IGauge12
         '
         Me.IGauge12.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge12.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge12.BodyColor = System.Drawing.Color.Beige
         Me.IGauge12.Driver = Me.IDriver1
         Me.IGauge12.Location = New System.Drawing.Point(277, 3)
         Me.IGauge12.MaxValue = 100.0R
@@ -509,7 +511,7 @@ Partial Class frmLayout
         'IGauge11
         '
         Me.IGauge11.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge11.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge11.BodyColor = System.Drawing.Color.Beige
         Me.IGauge11.Driver = Me.IDriver1
         Me.IGauge11.Location = New System.Drawing.Point(3, 3)
         Me.IGauge11.MaxValue = 100.0R
@@ -551,7 +553,7 @@ Partial Class frmLayout
         'IGauge4
         '
         Me.IGauge4.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge4.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge4.BodyColor = System.Drawing.Color.Beige
         Me.IGauge4.Driver = Me.IDriver1
         Me.IGauge4.Location = New System.Drawing.Point(272, 3)
         Me.IGauge4.MaxValue = 100.0R
@@ -572,7 +574,7 @@ Partial Class frmLayout
         'IGauge3
         '
         Me.IGauge3.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge3.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge3.BodyColor = System.Drawing.Color.Beige
         Me.IGauge3.Driver = Me.IDriver1
         Me.IGauge3.Location = New System.Drawing.Point(6, 0)
         Me.IGauge3.MaxValue = 100.0R
@@ -614,7 +616,7 @@ Partial Class frmLayout
         'IGauge10
         '
         Me.IGauge10.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge10.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge10.BodyColor = System.Drawing.Color.Beige
         Me.IGauge10.Driver = Me.IDriver1
         Me.IGauge10.Location = New System.Drawing.Point(277, 3)
         Me.IGauge10.MaxValue = 100.0R
@@ -635,7 +637,7 @@ Partial Class frmLayout
         'IGauge9
         '
         Me.IGauge9.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge9.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge9.BodyColor = System.Drawing.Color.Beige
         Me.IGauge9.Driver = Me.IDriver1
         Me.IGauge9.Location = New System.Drawing.Point(3, 3)
         Me.IGauge9.MaxValue = 100.0R
@@ -677,7 +679,7 @@ Partial Class frmLayout
         'IGauge6
         '
         Me.IGauge6.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge6.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge6.BodyColor = System.Drawing.Color.Beige
         Me.IGauge6.Driver = Me.IDriver1
         Me.IGauge6.Location = New System.Drawing.Point(277, 3)
         Me.IGauge6.MaxValue = 100.0R
@@ -698,7 +700,7 @@ Partial Class frmLayout
         'IGauge5
         '
         Me.IGauge5.BackColor = System.Drawing.Color.Transparent
-        Me.IGauge5.BodyColor = System.Drawing.Color.Blue
+        Me.IGauge5.BodyColor = System.Drawing.Color.Beige
         Me.IGauge5.Driver = Me.IDriver1
         Me.IGauge5.Location = New System.Drawing.Point(3, 3)
         Me.IGauge5.MaxValue = 100.0R
@@ -760,9 +762,9 @@ Partial Class frmLayout
         '
         'ILed7Segment1
         '
-        Me.ILed7Segment1.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment1.ColorBackground = System.Drawing.SystemColors.ActiveCaptionText
         Me.ILed7Segment1.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment1.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment1.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment1.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment1.DecimalShow = True
         Me.ILed7Segment1.DigitNumber = 4
@@ -770,9 +772,9 @@ Partial Class frmLayout
         Me.ILed7Segment1.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment1.ElementWidth = 10
         Me.ILed7Segment1.ItalicFactor = -0.1!
-        Me.ILed7Segment1.Location = New System.Drawing.Point(116, 33)
+        Me.ILed7Segment1.Location = New System.Drawing.Point(99, 33)
         Me.ILed7Segment1.Name = "ILed7Segment1"
-        Me.ILed7Segment1.Size = New System.Drawing.Size(215, 58)
+        Me.ILed7Segment1.Size = New System.Drawing.Size(260, 58)
         Me.ILed7Segment1.TabIndex = 12
         Me.ILed7Segment1.TabStop = False
         Me.ILed7Segment1.TagName = "EnergyTotalTotal.kV1"
@@ -802,9 +804,9 @@ Partial Class frmLayout
         '
         'ILed7Segment4
         '
-        Me.ILed7Segment4.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment4.ColorBackground = System.Drawing.SystemColors.ActiveCaptionText
         Me.ILed7Segment4.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment4.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment4.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment4.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment4.DecimalShow = True
         Me.ILed7Segment4.DigitNumber = 4
@@ -812,9 +814,9 @@ Partial Class frmLayout
         Me.ILed7Segment4.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment4.ElementWidth = 10
         Me.ILed7Segment4.ItalicFactor = -0.1!
-        Me.ILed7Segment4.Location = New System.Drawing.Point(23, 7)
+        Me.ILed7Segment4.Location = New System.Drawing.Point(3, 7)
         Me.ILed7Segment4.Name = "ILed7Segment4"
-        Me.ILed7Segment4.Size = New System.Drawing.Size(168, 45)
+        Me.ILed7Segment4.Size = New System.Drawing.Size(208, 45)
         Me.ILed7Segment4.TabIndex = 13
         Me.ILed7Segment4.TabStop = False
         Me.ILed7Segment4.TagName = "KV1DH1.Energy"
@@ -864,9 +866,9 @@ Partial Class frmLayout
         '
         'ILed7Segment5
         '
-        Me.ILed7Segment5.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment5.ColorBackground = System.Drawing.SystemColors.ActiveCaptionText
         Me.ILed7Segment5.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment5.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment5.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment5.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment5.DecimalShow = True
         Me.ILed7Segment5.DigitNumber = 4
@@ -874,9 +876,9 @@ Partial Class frmLayout
         Me.ILed7Segment5.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment5.ElementWidth = 10
         Me.ILed7Segment5.ItalicFactor = -0.1!
-        Me.ILed7Segment5.Location = New System.Drawing.Point(24, 5)
+        Me.ILed7Segment5.Location = New System.Drawing.Point(3, 5)
         Me.ILed7Segment5.Name = "ILed7Segment5"
-        Me.ILed7Segment5.Size = New System.Drawing.Size(156, 45)
+        Me.ILed7Segment5.Size = New System.Drawing.Size(217, 45)
         Me.ILed7Segment5.TabIndex = 13
         Me.ILed7Segment5.TabStop = False
         Me.ILed7Segment5.TagName = "KV1DH2.Energy"
@@ -931,10 +933,10 @@ Partial Class frmLayout
         Me.IThreeRatePriceLogger1.DatabaseLog.DatabaseName = "ems"
         Me.IThreeRatePriceLogger1.DatabaseLog.Password = "femgne2005"
         Me.IThreeRatePriceLogger1.DatabaseLog.ServerName = "localhost"
-        Me.IThreeRatePriceLogger1.DatabaseLog.TableName = "power_log"
+        Me.IThreeRatePriceLogger1.DatabaseLog.TableName = "Money_DH1"
         Me.IThreeRatePriceLogger1.DatabaseLog.UserID = "root"
         Me.IThreeRatePriceLogger1.DecimalPlaces = 3
-        Me.IThreeRatePriceLogger1.DeviceName = "Device"
+        Me.IThreeRatePriceLogger1.DeviceName = "DH1"
         Me.IThreeRatePriceLogger1.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
         Me.IThreeRatePriceLogger1.Driver = Me.IDriver1
         Me.IThreeRatePriceLogger1.GroupName = "Group"
@@ -942,7 +944,7 @@ Partial Class frmLayout
         Me.IThreeRatePriceLogger1.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
         Me.IThreeRatePriceLogger1.PeakHourRate = "MoneyPriceRate.PeakHourRate"
         Me.IThreeRatePriceLogger1.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger1.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
-        Me.IThreeRatePriceLogger1.PowerTagName = Nothing
+        Me.IThreeRatePriceLogger1.PowerTagName = "KV1DH1.Power"
         Me.IThreeRatePriceLogger1.StandardHourRate = "MoneyPriceRate.StandardHourRate"
         '
         'IThreeRatePriceLogger2
@@ -951,10 +953,10 @@ Partial Class frmLayout
         Me.IThreeRatePriceLogger2.DatabaseLog.DatabaseName = "ems"
         Me.IThreeRatePriceLogger2.DatabaseLog.Password = "femgne2005"
         Me.IThreeRatePriceLogger2.DatabaseLog.ServerName = "localhost"
-        Me.IThreeRatePriceLogger2.DatabaseLog.TableName = "power_log"
+        Me.IThreeRatePriceLogger2.DatabaseLog.TableName = "Money_DH2"
         Me.IThreeRatePriceLogger2.DatabaseLog.UserID = "root"
         Me.IThreeRatePriceLogger2.DecimalPlaces = 3
-        Me.IThreeRatePriceLogger2.DeviceName = "Device"
+        Me.IThreeRatePriceLogger2.DeviceName = "DH2"
         Me.IThreeRatePriceLogger2.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
         Me.IThreeRatePriceLogger2.Driver = Me.IDriver1
         Me.IThreeRatePriceLogger2.GroupName = "Group"
@@ -962,7 +964,7 @@ Partial Class frmLayout
         Me.IThreeRatePriceLogger2.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
         Me.IThreeRatePriceLogger2.PeakHourRate = "MoneyPriceRate.PeakHourRate"
         Me.IThreeRatePriceLogger2.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger2.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
-        Me.IThreeRatePriceLogger2.PowerTagName = Nothing
+        Me.IThreeRatePriceLogger2.PowerTagName = "KV1DH2.Power"
         Me.IThreeRatePriceLogger2.StandardHourRate = "MoneyPriceRate.StandardHourRate"
         '
         'IThreeRatePriceLogger3
@@ -971,10 +973,10 @@ Partial Class frmLayout
         Me.IThreeRatePriceLogger3.DatabaseLog.DatabaseName = "ems"
         Me.IThreeRatePriceLogger3.DatabaseLog.Password = "femgne2005"
         Me.IThreeRatePriceLogger3.DatabaseLog.ServerName = "localhost"
-        Me.IThreeRatePriceLogger3.DatabaseLog.TableName = "power_log"
+        Me.IThreeRatePriceLogger3.DatabaseLog.TableName = "Money_DH3"
         Me.IThreeRatePriceLogger3.DatabaseLog.UserID = "root"
         Me.IThreeRatePriceLogger3.DecimalPlaces = 3
-        Me.IThreeRatePriceLogger3.DeviceName = "Device"
+        Me.IThreeRatePriceLogger3.DeviceName = "DH3"
         Me.IThreeRatePriceLogger3.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
         Me.IThreeRatePriceLogger3.Driver = Me.IDriver1
         Me.IThreeRatePriceLogger3.GroupName = "Group"
@@ -982,7 +984,7 @@ Partial Class frmLayout
         Me.IThreeRatePriceLogger3.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
         Me.IThreeRatePriceLogger3.PeakHourRate = "MoneyPriceRate.PeakHourRate"
         Me.IThreeRatePriceLogger3.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger3.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
-        Me.IThreeRatePriceLogger3.PowerTagName = Nothing
+        Me.IThreeRatePriceLogger3.PowerTagName = "KV2DH3.Power"
         Me.IThreeRatePriceLogger3.StandardHourRate = "MoneyPriceRate.StandardHourRate"
         '
         'IThreeRatePriceLogger4
@@ -991,10 +993,10 @@ Partial Class frmLayout
         Me.IThreeRatePriceLogger4.DatabaseLog.DatabaseName = "ems"
         Me.IThreeRatePriceLogger4.DatabaseLog.Password = "femgne2005"
         Me.IThreeRatePriceLogger4.DatabaseLog.ServerName = "localhost"
-        Me.IThreeRatePriceLogger4.DatabaseLog.TableName = "power_log"
+        Me.IThreeRatePriceLogger4.DatabaseLog.TableName = "Money_DH4"
         Me.IThreeRatePriceLogger4.DatabaseLog.UserID = "root"
         Me.IThreeRatePriceLogger4.DecimalPlaces = 3
-        Me.IThreeRatePriceLogger4.DeviceName = "Device"
+        Me.IThreeRatePriceLogger4.DeviceName = "DH4"
         Me.IThreeRatePriceLogger4.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
         Me.IThreeRatePriceLogger4.Driver = Me.IDriver1
         Me.IThreeRatePriceLogger4.GroupName = "Group"
@@ -1002,7 +1004,7 @@ Partial Class frmLayout
         Me.IThreeRatePriceLogger4.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
         Me.IThreeRatePriceLogger4.PeakHourRate = "MoneyPriceRate.PeakHourRate"
         Me.IThreeRatePriceLogger4.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger4.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
-        Me.IThreeRatePriceLogger4.PowerTagName = Nothing
+        Me.IThreeRatePriceLogger4.PowerTagName = "KV2DH4.Power"
         Me.IThreeRatePriceLogger4.StandardHourRate = "MoneyPriceRate.StandardHourRate"
         '
         'IThreeRatePriceLogger5
@@ -1011,10 +1013,10 @@ Partial Class frmLayout
         Me.IThreeRatePriceLogger5.DatabaseLog.DatabaseName = "ems"
         Me.IThreeRatePriceLogger5.DatabaseLog.Password = "femgne2005"
         Me.IThreeRatePriceLogger5.DatabaseLog.ServerName = "localhost"
-        Me.IThreeRatePriceLogger5.DatabaseLog.TableName = "power_log"
+        Me.IThreeRatePriceLogger5.DatabaseLog.TableName = "Money_DH5"
         Me.IThreeRatePriceLogger5.DatabaseLog.UserID = "root"
         Me.IThreeRatePriceLogger5.DecimalPlaces = 3
-        Me.IThreeRatePriceLogger5.DeviceName = "Device"
+        Me.IThreeRatePriceLogger5.DeviceName = "DH5"
         Me.IThreeRatePriceLogger5.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
         Me.IThreeRatePriceLogger5.Driver = Me.IDriver1
         Me.IThreeRatePriceLogger5.GroupName = "Group"
@@ -1022,7 +1024,7 @@ Partial Class frmLayout
         Me.IThreeRatePriceLogger5.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
         Me.IThreeRatePriceLogger5.PeakHourRate = "MoneyPriceRate.PeakHourRate"
         Me.IThreeRatePriceLogger5.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger5.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
-        Me.IThreeRatePriceLogger5.PowerTagName = Nothing
+        Me.IThreeRatePriceLogger5.PowerTagName = "KV3DH5.Power"
         Me.IThreeRatePriceLogger5.StandardHourRate = "MoneyPriceRate.StandardHourRate"
         '
         'Panel1
@@ -1048,9 +1050,9 @@ Partial Class frmLayout
         '
         'ILed7Segment3
         '
-        Me.ILed7Segment3.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment3.ColorBackground = System.Drawing.SystemColors.ActiveCaptionText
         Me.ILed7Segment3.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment3.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment3.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment3.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment3.DecimalShow = True
         Me.ILed7Segment3.DigitNumber = 4
@@ -1058,9 +1060,9 @@ Partial Class frmLayout
         Me.ILed7Segment3.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment3.ElementWidth = 10
         Me.ILed7Segment3.ItalicFactor = -0.1!
-        Me.ILed7Segment3.Location = New System.Drawing.Point(21, 3)
+        Me.ILed7Segment3.Location = New System.Drawing.Point(-1, 3)
         Me.ILed7Segment3.Name = "ILed7Segment3"
-        Me.ILed7Segment3.Size = New System.Drawing.Size(169, 48)
+        Me.ILed7Segment3.Size = New System.Drawing.Size(221, 48)
         Me.ILed7Segment3.TabIndex = 13
         Me.ILed7Segment3.TabStop = False
         Me.ILed7Segment3.TagName = "KV3DH6.Energy"
@@ -1110,9 +1112,9 @@ Partial Class frmLayout
         '
         'ILed7Segment8
         '
-        Me.ILed7Segment8.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment8.ColorBackground = System.Drawing.SystemColors.ActiveCaptionText
         Me.ILed7Segment8.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment8.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment8.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment8.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment8.DecimalShow = True
         Me.ILed7Segment8.DigitNumber = 4
@@ -1120,9 +1122,9 @@ Partial Class frmLayout
         Me.ILed7Segment8.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment8.ElementWidth = 10
         Me.ILed7Segment8.ItalicFactor = -0.1!
-        Me.ILed7Segment8.Location = New System.Drawing.Point(25, 5)
+        Me.ILed7Segment8.Location = New System.Drawing.Point(3, 5)
         Me.ILed7Segment8.Name = "ILed7Segment8"
-        Me.ILed7Segment8.Size = New System.Drawing.Size(166, 45)
+        Me.ILed7Segment8.Size = New System.Drawing.Size(208, 45)
         Me.ILed7Segment8.TabIndex = 13
         Me.ILed7Segment8.TabStop = False
         Me.ILed7Segment8.TagName = "KV3DH5.Energy"
@@ -1171,9 +1173,9 @@ Partial Class frmLayout
         '
         'ILed7Segment9
         '
-        Me.ILed7Segment9.ColorBackground = System.Drawing.SystemColors.ButtonFace
+        Me.ILed7Segment9.ColorBackground = System.Drawing.SystemColors.ActiveCaptionText
         Me.ILed7Segment9.ColorDark = System.Drawing.Color.Silver
-        Me.ILed7Segment9.ColorLight = System.Drawing.Color.Blue
+        Me.ILed7Segment9.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment9.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment9.DecimalShow = True
         Me.ILed7Segment9.DigitNumber = 4
@@ -1181,9 +1183,9 @@ Partial Class frmLayout
         Me.ILed7Segment9.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment9.ElementWidth = 10
         Me.ILed7Segment9.ItalicFactor = -0.1!
-        Me.ILed7Segment9.Location = New System.Drawing.Point(116, 33)
+        Me.ILed7Segment9.Location = New System.Drawing.Point(78, 33)
         Me.ILed7Segment9.Name = "ILed7Segment9"
-        Me.ILed7Segment9.Size = New System.Drawing.Size(214, 58)
+        Me.ILed7Segment9.Size = New System.Drawing.Size(284, 58)
         Me.ILed7Segment9.TabIndex = 13
         Me.ILed7Segment9.TabStop = False
         Me.ILed7Segment9.TagName = "EnergyTotalTotal.KV3"
@@ -1221,7 +1223,33 @@ Partial Class frmLayout
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(63, 23)
         Me.Label13.TabIndex = 0
-        Me.Label13.Text = "Area 2"
+        Me.Label13.Text = "Area 3"
+        '
+        'IThreeRatePriceLogger6
+        '
+        Me.IThreeRatePriceLogger6.CurrentPriceTagName = Nothing
+        Me.IThreeRatePriceLogger6.DatabaseLog.DatabaseName = "ems"
+        Me.IThreeRatePriceLogger6.DatabaseLog.Password = "femgne2005"
+        Me.IThreeRatePriceLogger6.DatabaseLog.ServerName = "localhost"
+        Me.IThreeRatePriceLogger6.DatabaseLog.TableName = "Money_DH6"
+        Me.IThreeRatePriceLogger6.DatabaseLog.UserID = "root"
+        Me.IThreeRatePriceLogger6.DecimalPlaces = 3
+        Me.IThreeRatePriceLogger6.DeviceName = "DH6"
+        Me.IThreeRatePriceLogger6.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
+        Me.IThreeRatePriceLogger6.Driver = Me.IDriver1
+        Me.IThreeRatePriceLogger6.GroupName = "Group"
+        Me.IThreeRatePriceLogger6.LogOnlyReset = True
+        Me.IThreeRatePriceLogger6.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
+        Me.IThreeRatePriceLogger6.PeakHourRate = "MoneyPriceRate.PeakHourRate"
+        Me.IThreeRatePriceLogger6.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger6.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
+        Me.IThreeRatePriceLogger6.PowerTagName = "KV3DH6.Power"
+        Me.IThreeRatePriceLogger6.StandardHourRate = "MoneyPriceRate.StandardHourRate"
+        '
+        'IWebService1
+        '
+        Me.IWebService1.Driver = Me.IDriver1
+        Me.IWebService1.Port = CType(8010UI, UInteger)
+        Me.IWebService1.Server = "localhost"
         '
         'frmLayout
         '
@@ -1376,4 +1404,6 @@ Partial Class frmLayout
     Friend WithEvents Label9 As Label
     Friend WithEvents Panel23 As Panel
     Friend WithEvents Label13 As Label
+    Friend WithEvents IThreeRatePriceLogger6 As ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger
+    Friend WithEvents IWebService1 As ATSCADA.WebService.iWebService
 End Class

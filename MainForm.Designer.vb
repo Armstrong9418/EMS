@@ -46,9 +46,9 @@ Partial Class MainForm
         'pnlMain
         '
         Me.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pnlMain.Location = New System.Drawing.Point(185, 53)
+        Me.pnlMain.Location = New System.Drawing.Point(176, 53)
         Me.pnlMain.Name = "pnlMain"
-        Me.pnlMain.Size = New System.Drawing.Size(1483, 785)
+        Me.pnlMain.Size = New System.Drawing.Size(1492, 785)
         Me.pnlMain.TabIndex = 7
         '
         'pnlHeader
@@ -61,22 +61,22 @@ Partial Class MainForm
         Me.pnlHeader.Controls.Add(Me.btnClose)
         Me.pnlHeader.Controls.Add(Me.btnMinimize)
         Me.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top
-        Me.pnlHeader.Location = New System.Drawing.Point(185, 0)
+        Me.pnlHeader.Location = New System.Drawing.Point(176, 0)
         Me.pnlHeader.Name = "pnlHeader"
-        Me.pnlHeader.Size = New System.Drawing.Size(1483, 53)
+        Me.pnlHeader.Size = New System.Drawing.Size(1492, 53)
         Me.pnlHeader.TabIndex = 4
         '
         'btnMenu
         '
-        Me.btnMenu.BackColor = System.Drawing.Color.Black
+        Me.btnMenu.BackColor = System.Drawing.Color.DarkGray
         Me.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMenu.Font = New System.Drawing.Font("Malgun Gothic", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMenu.ForeColor = System.Drawing.Color.White
-        Me.btnMenu.Location = New System.Drawing.Point(221, 4)
+        Me.btnMenu.ForeColor = System.Drawing.Color.Black
+        Me.btnMenu.Location = New System.Drawing.Point(208, 4)
         Me.btnMenu.Name = "btnMenu"
-        Me.btnMenu.Size = New System.Drawing.Size(66, 47)
+        Me.btnMenu.Size = New System.Drawing.Size(79, 47)
         Me.btnMenu.TabIndex = 0
-        Me.btnMenu.Text = ": : :"
+        Me.btnMenu.Text = "◀️⏪"
         Me.btnMenu.UseVisualStyleBackColor = False
         '
         'Label5
@@ -156,9 +156,9 @@ Partial Class MainForm
         Me.pnlFooter.Controls.Add(Me.lblTitle)
         Me.pnlFooter.Controls.Add(Me.lblATSCADA)
         Me.pnlFooter.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.pnlFooter.Location = New System.Drawing.Point(185, 838)
+        Me.pnlFooter.Location = New System.Drawing.Point(176, 838)
         Me.pnlFooter.Name = "pnlFooter"
-        Me.pnlFooter.Size = New System.Drawing.Size(1483, 44)
+        Me.pnlFooter.Size = New System.Drawing.Size(1492, 44)
         Me.pnlFooter.TabIndex = 5
         '
         'lblTitle
@@ -193,7 +193,7 @@ Partial Class MainForm
         Me.pnlMenu.ForeColor = System.Drawing.Color.White
         Me.pnlMenu.Location = New System.Drawing.Point(0, 0)
         Me.pnlMenu.Name = "pnlMenu"
-        Me.pnlMenu.Size = New System.Drawing.Size(185, 882)
+        Me.pnlMenu.Size = New System.Drawing.Size(176, 882)
         Me.pnlMenu.TabIndex = 6
         '
         'btnSettings
@@ -201,11 +201,11 @@ Partial Class MainForm
         Me.btnSettings.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSettings.Font = New System.Drawing.Font("Malgun Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSettings.Location = New System.Drawing.Point(20, 196)
+        Me.btnSettings.Location = New System.Drawing.Point(3, 243)
         Me.btnSettings.Name = "btnSettings"
-        Me.btnSettings.Size = New System.Drawing.Size(143, 44)
+        Me.btnSettings.Size = New System.Drawing.Size(162, 44)
         Me.btnSettings.TabIndex = 0
-        Me.btnSettings.Text = "Settings"
+        Me.btnSettings.Text = "📎  Settings"
         Me.btnSettings.UseVisualStyleBackColor = False
         '
         'btnReport
@@ -213,11 +213,11 @@ Partial Class MainForm
         Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnReport.Font = New System.Drawing.Font("Malgun Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnReport.Location = New System.Drawing.Point(20, 117)
+        Me.btnReport.Location = New System.Drawing.Point(3, 162)
         Me.btnReport.Name = "btnReport"
-        Me.btnReport.Size = New System.Drawing.Size(143, 44)
+        Me.btnReport.Size = New System.Drawing.Size(162, 44)
         Me.btnReport.TabIndex = 0
-        Me.btnReport.Text = "Report"
+        Me.btnReport.Text = "📃  Report"
         Me.btnReport.UseVisualStyleBackColor = False
         '
         'btnLayout
@@ -225,11 +225,11 @@ Partial Class MainForm
         Me.btnLayout.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.btnLayout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLayout.Font = New System.Drawing.Font("Malgun Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLayout.Location = New System.Drawing.Point(20, 30)
+        Me.btnLayout.Location = New System.Drawing.Point(3, 80)
         Me.btnLayout.Name = "btnLayout"
-        Me.btnLayout.Size = New System.Drawing.Size(143, 44)
+        Me.btnLayout.Size = New System.Drawing.Size(162, 44)
         Me.btnLayout.TabIndex = 0
-        Me.btnLayout.Text = "Layout"
+        Me.btnLayout.Text = "⚡  Layout"
         Me.btnLayout.UseVisualStyleBackColor = False
         '
         'MainForm

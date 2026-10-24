@@ -42,14 +42,16 @@ Friend Class EnergySummer
     Private ReadOnly _targetName As String
     Private ReadOnly _sourceNames As String()
     Private ReadOnly _sources As New List(Of ITag)
+    Private ReadOnly _timer As New System.Windows.Forms.Timer With {.Interval = 1000}
     Private _target As ITag
+    Private _last As String = ""
 
     Public Sub New(driver As iDriver, targetName As String, ParamArray sourceNames As String())
         _driver = driver
         _targetName = targetName
         _sourceNames = sourceNames
-        ' Les tags ne sont accessibles qu'une fois la construction du pilote terminée
         AddHandler _driver.ConstructionCompleted, Sub() Connect()
+        AddHandler _timer.Tick, Sub() Recalculate()
     End Sub
 
     Private Sub Connect()
@@ -63,9 +65,14 @@ Friend Class EnergySummer
                 AddHandler tag.TagValueChanged, Sub() Recalculate()
             End If
         Next
+
+        Recalculate()
+        _timer.Start()
     End Sub
 
     Private Sub Recalculate()
+        If _target Is Nothing Then Return
+
         Dim total As Double = 0
         For Each tag As ITag In _sources
             Dim value As Double
@@ -74,7 +81,12 @@ Friend Class EnergySummer
                 total += value
             End If
         Next
-        _target.ASynWrite(total.ToString(CultureInfo.InvariantCulture))
+
+        Dim text As String = total.ToString(CultureInfo.InvariantCulture)
+        If text <> _last Then
+            _last = text
+            _target.ASynWrite(text)
+        End If
     End Sub
 
 End Class
