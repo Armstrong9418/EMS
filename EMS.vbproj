@@ -100,7 +100,9 @@
     <Compile Include="frmLayout.Designer.vb">
       <DependentUpon>frmLayout.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmLayout.vb" />
+    <Compile Include="frmLayout.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DbConfig.vb" />
     <Compile Include="SimplePdf.vb" />
     <Compile Include="frmReport.Designer.vb">

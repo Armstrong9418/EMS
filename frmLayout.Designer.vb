@@ -23,7 +23,6 @@ Partial Class frmLayout
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmLayout))
         Me.Panel28 = New System.Windows.Forms.Panel()
         Me.IGauge8 = New ATSCADA.iGraphicTools.Gauge.iGauge()
         Me.IDriver1 = New ATSCADA.iDriver()
@@ -82,11 +81,6 @@ Partial Class frmLayout
         Me.Panel9 = New System.Windows.Forms.Panel()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.IThreeRatePriceLogger1 = New ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger(Me.components)
-        Me.IThreeRatePriceLogger2 = New ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger(Me.components)
-        Me.IThreeRatePriceLogger3 = New ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger(Me.components)
-        Me.IThreeRatePriceLogger4 = New ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger(Me.components)
-        Me.IThreeRatePriceLogger5 = New ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger(Me.components)
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel18 = New System.Windows.Forms.Panel()
         Me.ILed7Segment3 = New ATSCADA.iGraphicTools.Led.iLed7Segment()
@@ -103,12 +97,7 @@ Partial Class frmLayout
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Panel23 = New System.Windows.Forms.Panel()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.IThreeRatePriceLogger6 = New ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger(Me.components)
         Me.IWebService1 = New ATSCADA.WebService.iWebService(Me.components)
-        Me.IAdder1 = New ATSCADA.iLEANTools.Calculators.iAdder(Me.components)
-        Me.IAdder2 = New ATSCADA.iLEANTools.Calculators.iAdder(Me.components)
-        Me.IAdder3 = New ATSCADA.iLEANTools.Calculators.iAdder(Me.components)
-        Me.IAdder4 = New ATSCADA.iLEANTools.Calculators.iAdder(Me.components)
         Me.Panel28.SuspendLayout()
         Me.Panel12.SuspendLayout()
         Me.Panel13.SuspendLayout()
@@ -360,14 +349,14 @@ Partial Class frmLayout
         Me.ILed7Segment2.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment2.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment2.DecimalShow = True
-        Me.ILed7Segment2.DigitNumber = 6
+        Me.ILed7Segment2.DigitNumber = 4
         Me.ILed7Segment2.Driver = Me.IDriver1
         Me.ILed7Segment2.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment2.ElementWidth = 10
         Me.ILed7Segment2.ItalicFactor = -0.1!
-        Me.ILed7Segment2.Location = New System.Drawing.Point(44, 33)
+        Me.ILed7Segment2.Location = New System.Drawing.Point(94, 33)
         Me.ILed7Segment2.Name = "ILed7Segment2"
-        Me.ILed7Segment2.Size = New System.Drawing.Size(378, 58)
+        Me.ILed7Segment2.Size = New System.Drawing.Size(264, 58)
         Me.ILed7Segment2.TabIndex = 13
         Me.ILed7Segment2.TabStop = False
         Me.ILed7Segment2.TagName = "EnergyTotalTotal.KV2"
@@ -771,14 +760,14 @@ Partial Class frmLayout
         Me.ILed7Segment1.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment1.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment1.DecimalShow = True
-        Me.ILed7Segment1.DigitNumber = 6
+        Me.ILed7Segment1.DigitNumber = 4
         Me.ILed7Segment1.Driver = Me.IDriver1
         Me.ILed7Segment1.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment1.ElementWidth = 10
         Me.ILed7Segment1.ItalicFactor = -0.1!
-        Me.ILed7Segment1.Location = New System.Drawing.Point(44, 33)
+        Me.ILed7Segment1.Location = New System.Drawing.Point(99, 33)
         Me.ILed7Segment1.Name = "ILed7Segment1"
-        Me.ILed7Segment1.Size = New System.Drawing.Size(378, 58)
+        Me.ILed7Segment1.Size = New System.Drawing.Size(260, 58)
         Me.ILed7Segment1.TabIndex = 12
         Me.ILed7Segment1.TabStop = False
         Me.ILed7Segment1.TagName = "EnergyTotalTotal.KV1"
@@ -882,7 +871,7 @@ Partial Class frmLayout
         Me.ILed7Segment5.ItalicFactor = -0.1!
         Me.ILed7Segment5.Location = New System.Drawing.Point(3, 5)
         Me.ILed7Segment5.Name = "ILed7Segment5"
-        Me.ILed7Segment5.Size = New System.Drawing.Size(208, 45)
+        Me.ILed7Segment5.Size = New System.Drawing.Size(217, 45)
         Me.ILed7Segment5.TabIndex = 13
         Me.ILed7Segment5.TabStop = False
         Me.ILed7Segment5.TagName = "KV1DH2.Energy"
@@ -930,106 +919,6 @@ Partial Class frmLayout
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(448, 264)
         Me.Panel2.TabIndex = 8
-        '
-        'IThreeRatePriceLogger1
-        '
-        Me.IThreeRatePriceLogger1.CurrentPriceTagName = Nothing
-        Me.IThreeRatePriceLogger1.DatabaseLog.DatabaseName = "ems"
-        Me.IThreeRatePriceLogger1.DatabaseLog.Password = "femgne2005"
-        Me.IThreeRatePriceLogger1.DatabaseLog.ServerName = "localhost"
-        Me.IThreeRatePriceLogger1.DatabaseLog.TableName = "Money_DH1"
-        Me.IThreeRatePriceLogger1.DatabaseLog.UserID = "root"
-        Me.IThreeRatePriceLogger1.DecimalPlaces = 3
-        Me.IThreeRatePriceLogger1.DeviceName = "DH1"
-        Me.IThreeRatePriceLogger1.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
-        Me.IThreeRatePriceLogger1.Driver = Me.IDriver1
-        Me.IThreeRatePriceLogger1.GroupName = "Group"
-        Me.IThreeRatePriceLogger1.LogOnlyReset = True
-        Me.IThreeRatePriceLogger1.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
-        Me.IThreeRatePriceLogger1.PeakHourRate = "MoneyPriceRate.PeakHourRate"
-        Me.IThreeRatePriceLogger1.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger1.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
-        Me.IThreeRatePriceLogger1.PowerTagName = "KV1DH1.Power"
-        Me.IThreeRatePriceLogger1.StandardHourRate = "MoneyPriceRate.StandardHourRate"
-        '
-        'IThreeRatePriceLogger2
-        '
-        Me.IThreeRatePriceLogger2.CurrentPriceTagName = Nothing
-        Me.IThreeRatePriceLogger2.DatabaseLog.DatabaseName = "ems"
-        Me.IThreeRatePriceLogger2.DatabaseLog.Password = "femgne2005"
-        Me.IThreeRatePriceLogger2.DatabaseLog.ServerName = "localhost"
-        Me.IThreeRatePriceLogger2.DatabaseLog.TableName = "Money_DH2"
-        Me.IThreeRatePriceLogger2.DatabaseLog.UserID = "root"
-        Me.IThreeRatePriceLogger2.DecimalPlaces = 3
-        Me.IThreeRatePriceLogger2.DeviceName = "DH2"
-        Me.IThreeRatePriceLogger2.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
-        Me.IThreeRatePriceLogger2.Driver = Me.IDriver1
-        Me.IThreeRatePriceLogger2.GroupName = "Group"
-        Me.IThreeRatePriceLogger2.LogOnlyReset = True
-        Me.IThreeRatePriceLogger2.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
-        Me.IThreeRatePriceLogger2.PeakHourRate = "MoneyPriceRate.PeakHourRate"
-        Me.IThreeRatePriceLogger2.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger2.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
-        Me.IThreeRatePriceLogger2.PowerTagName = "KV1DH2.Power"
-        Me.IThreeRatePriceLogger2.StandardHourRate = "MoneyPriceRate.StandardHourRate"
-        '
-        'IThreeRatePriceLogger3
-        '
-        Me.IThreeRatePriceLogger3.CurrentPriceTagName = Nothing
-        Me.IThreeRatePriceLogger3.DatabaseLog.DatabaseName = "ems"
-        Me.IThreeRatePriceLogger3.DatabaseLog.Password = "femgne2005"
-        Me.IThreeRatePriceLogger3.DatabaseLog.ServerName = "localhost"
-        Me.IThreeRatePriceLogger3.DatabaseLog.TableName = "Money_DH3"
-        Me.IThreeRatePriceLogger3.DatabaseLog.UserID = "root"
-        Me.IThreeRatePriceLogger3.DecimalPlaces = 3
-        Me.IThreeRatePriceLogger3.DeviceName = "DH3"
-        Me.IThreeRatePriceLogger3.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
-        Me.IThreeRatePriceLogger3.Driver = Me.IDriver1
-        Me.IThreeRatePriceLogger3.GroupName = "Group"
-        Me.IThreeRatePriceLogger3.LogOnlyReset = True
-        Me.IThreeRatePriceLogger3.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
-        Me.IThreeRatePriceLogger3.PeakHourRate = "MoneyPriceRate.PeakHourRate"
-        Me.IThreeRatePriceLogger3.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger3.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
-        Me.IThreeRatePriceLogger3.PowerTagName = "KV2DH3.Power"
-        Me.IThreeRatePriceLogger3.StandardHourRate = "MoneyPriceRate.StandardHourRate"
-        '
-        'IThreeRatePriceLogger4
-        '
-        Me.IThreeRatePriceLogger4.CurrentPriceTagName = Nothing
-        Me.IThreeRatePriceLogger4.DatabaseLog.DatabaseName = "ems"
-        Me.IThreeRatePriceLogger4.DatabaseLog.Password = "femgne2005"
-        Me.IThreeRatePriceLogger4.DatabaseLog.ServerName = "localhost"
-        Me.IThreeRatePriceLogger4.DatabaseLog.TableName = "Money_DH4"
-        Me.IThreeRatePriceLogger4.DatabaseLog.UserID = "root"
-        Me.IThreeRatePriceLogger4.DecimalPlaces = 3
-        Me.IThreeRatePriceLogger4.DeviceName = "DH4"
-        Me.IThreeRatePriceLogger4.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
-        Me.IThreeRatePriceLogger4.Driver = Me.IDriver1
-        Me.IThreeRatePriceLogger4.GroupName = "Group"
-        Me.IThreeRatePriceLogger4.LogOnlyReset = True
-        Me.IThreeRatePriceLogger4.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
-        Me.IThreeRatePriceLogger4.PeakHourRate = "MoneyPriceRate.PeakHourRate"
-        Me.IThreeRatePriceLogger4.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger4.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
-        Me.IThreeRatePriceLogger4.PowerTagName = "KV2DH4.Power"
-        Me.IThreeRatePriceLogger4.StandardHourRate = "MoneyPriceRate.StandardHourRate"
-        '
-        'IThreeRatePriceLogger5
-        '
-        Me.IThreeRatePriceLogger5.CurrentPriceTagName = Nothing
-        Me.IThreeRatePriceLogger5.DatabaseLog.DatabaseName = "ems"
-        Me.IThreeRatePriceLogger5.DatabaseLog.Password = "femgne2005"
-        Me.IThreeRatePriceLogger5.DatabaseLog.ServerName = "localhost"
-        Me.IThreeRatePriceLogger5.DatabaseLog.TableName = "Money_DH5"
-        Me.IThreeRatePriceLogger5.DatabaseLog.UserID = "root"
-        Me.IThreeRatePriceLogger5.DecimalPlaces = 3
-        Me.IThreeRatePriceLogger5.DeviceName = "DH5"
-        Me.IThreeRatePriceLogger5.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
-        Me.IThreeRatePriceLogger5.Driver = Me.IDriver1
-        Me.IThreeRatePriceLogger5.GroupName = "Group"
-        Me.IThreeRatePriceLogger5.LogOnlyReset = True
-        Me.IThreeRatePriceLogger5.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
-        Me.IThreeRatePriceLogger5.PeakHourRate = "MoneyPriceRate.PeakHourRate"
-        Me.IThreeRatePriceLogger5.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger5.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
-        Me.IThreeRatePriceLogger5.PowerTagName = "KV3DH5.Power"
-        Me.IThreeRatePriceLogger5.StandardHourRate = "MoneyPriceRate.StandardHourRate"
         '
         'Panel1
         '
@@ -1182,14 +1071,14 @@ Partial Class frmLayout
         Me.ILed7Segment9.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment9.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment9.DecimalShow = True
-        Me.ILed7Segment9.DigitNumber = 6
+        Me.ILed7Segment9.DigitNumber = 4
         Me.ILed7Segment9.Driver = Me.IDriver1
         Me.ILed7Segment9.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment9.ElementWidth = 10
         Me.ILed7Segment9.ItalicFactor = -0.1!
-        Me.ILed7Segment9.Location = New System.Drawing.Point(44, 33)
+        Me.ILed7Segment9.Location = New System.Drawing.Point(78, 33)
         Me.ILed7Segment9.Name = "ILed7Segment9"
-        Me.ILed7Segment9.Size = New System.Drawing.Size(349, 58)
+        Me.ILed7Segment9.Size = New System.Drawing.Size(284, 58)
         Me.ILed7Segment9.TabIndex = 13
         Me.ILed7Segment9.TabStop = False
         Me.ILed7Segment9.TagName = "EnergyTotalTotal.KV3"
@@ -1229,67 +1118,11 @@ Partial Class frmLayout
         Me.Label13.TabIndex = 0
         Me.Label13.Text = "Area 3"
         '
-        'IThreeRatePriceLogger6
-        '
-        Me.IThreeRatePriceLogger6.CurrentPriceTagName = Nothing
-        Me.IThreeRatePriceLogger6.DatabaseLog.DatabaseName = "ems"
-        Me.IThreeRatePriceLogger6.DatabaseLog.Password = "femgne2005"
-        Me.IThreeRatePriceLogger6.DatabaseLog.ServerName = "localhost"
-        Me.IThreeRatePriceLogger6.DatabaseLog.TableName = "Money_DH6"
-        Me.IThreeRatePriceLogger6.DatabaseLog.UserID = "root"
-        Me.IThreeRatePriceLogger6.DecimalPlaces = 3
-        Me.IThreeRatePriceLogger6.DeviceName = "DH6"
-        Me.IThreeRatePriceLogger6.Direction = ATSCADA.iEnergyTools.Power.Direction.Zero
-        Me.IThreeRatePriceLogger6.Driver = Me.IDriver1
-        Me.IThreeRatePriceLogger6.GroupName = "Group"
-        Me.IThreeRatePriceLogger6.LogOnlyReset = True
-        Me.IThreeRatePriceLogger6.OffPeakHourRate = "MoneyPriceRate.OffPeakHourRate"
-        Me.IThreeRatePriceLogger6.PeakHourRate = "MoneyPriceRate.PeakHourRate"
-        Me.IThreeRatePriceLogger6.PowerSettings = CType(resources.GetObject("IThreeRatePriceLogger6.PowerSettings"), ATSCADA.iEnergyTools.Power.PowerSettings)
-        Me.IThreeRatePriceLogger6.PowerTagName = "KV3DH6.Power"
-        Me.IThreeRatePriceLogger6.StandardHourRate = "MoneyPriceRate.StandardHourRate"
-        '
         'IWebService1
         '
         Me.IWebService1.Driver = Me.IDriver1
         Me.IWebService1.Port = CType(8010UI, UInteger)
         Me.IWebService1.Server = "localhost"
-        '
-        'IAdder1
-        '
-        Me.IAdder1.Collection = "KV1DH1.Energy&1|KV1DH2.Energy&1"
-        Me.IAdder1.DecimalPlaces = -1
-        Me.IAdder1.Driver = Me.IDriver1
-        Me.IAdder1.Result = "EnergyTotalTotal.KV1"
-        Me.IAdder1.SamplingTime = CType(2000UI, UInteger)
-        Me.IAdder1.Scale = 1.0R
-        '
-        'IAdder2
-        '
-        Me.IAdder2.Collection = "KV2DH3.Energy&1|KV2DH4.Energy&1"
-        Me.IAdder2.DecimalPlaces = -1
-        Me.IAdder2.Driver = Me.IDriver1
-        Me.IAdder2.Result = "EnergyTotalTotal.KV2"
-        Me.IAdder2.SamplingTime = CType(2000UI, UInteger)
-        Me.IAdder2.Scale = 1.0R
-        '
-        'IAdder3
-        '
-        Me.IAdder3.Collection = "KV3DH5.Energy&1|KV3DH6.Energy&1"
-        Me.IAdder3.DecimalPlaces = -1
-        Me.IAdder3.Driver = Me.IDriver1
-        Me.IAdder3.Result = "EnergyTotalTotal.KV3"
-        Me.IAdder3.SamplingTime = CType(2000UI, UInteger)
-        Me.IAdder3.Scale = 1.0R
-        '
-        'IAdder4
-        '
-        Me.IAdder4.Collection = "EnergyTotalTotal.KV1&1|EnergyTotalTotal.KV2&1|EnergyTotalTotal.KV3&1"
-        Me.IAdder4.DecimalPlaces = -1
-        Me.IAdder4.Driver = Me.IDriver1
-        Me.IAdder4.Result = "EnergyTotalTotal.Total"
-        Me.IAdder4.SamplingTime = CType(2000UI, UInteger)
-        Me.IAdder4.Scale = 1.0R
         '
         'frmLayout
         '
@@ -1423,11 +1256,6 @@ Partial Class frmLayout
     Friend WithEvents IGauge9 As ATSCADA.iGraphicTools.Gauge.iGauge
     Friend WithEvents IGauge6 As ATSCADA.iGraphicTools.Gauge.iGauge
     Friend WithEvents IGauge5 As ATSCADA.iGraphicTools.Gauge.iGauge
-    Friend WithEvents IThreeRatePriceLogger1 As ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger
-    Friend WithEvents IThreeRatePriceLogger2 As ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger
-    Friend WithEvents IThreeRatePriceLogger3 As ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger
-    Friend WithEvents IThreeRatePriceLogger4 As ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger
-    Friend WithEvents IThreeRatePriceLogger5 As ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel18 As Panel
     Friend WithEvents ILed7Segment3 As ATSCADA.iGraphicTools.Led.iLed7Segment
@@ -1444,10 +1272,5 @@ Partial Class frmLayout
     Friend WithEvents Label9 As Label
     Friend WithEvents Panel23 As Panel
     Friend WithEvents Label13 As Label
-    Friend WithEvents IThreeRatePriceLogger6 As ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger
     Friend WithEvents IWebService1 As ATSCADA.WebService.iWebService
-    Friend WithEvents IAdder1 As ATSCADA.iLEANTools.Calculators.iAdder
-    Friend WithEvents IAdder2 As ATSCADA.iLEANTools.Calculators.iAdder
-    Friend WithEvents IAdder3 As ATSCADA.iLEANTools.Calculators.iAdder
-    Friend WithEvents IAdder4 As ATSCADA.iLEANTools.Calculators.iAdder
 End Class
