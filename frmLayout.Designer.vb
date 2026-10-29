@@ -105,6 +105,10 @@ Partial Class frmLayout
         Me.Label13 = New System.Windows.Forms.Label()
         Me.IThreeRatePriceLogger6 = New ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger(Me.components)
         Me.IWebService1 = New ATSCADA.WebService.iWebService(Me.components)
+        Me.IAdder1 = New ATSCADA.iLEANTools.Calculators.iAdder(Me.components)
+        Me.IAdder2 = New ATSCADA.iLEANTools.Calculators.iAdder(Me.components)
+        Me.IAdder3 = New ATSCADA.iLEANTools.Calculators.iAdder(Me.components)
+        Me.IAdder4 = New ATSCADA.iLEANTools.Calculators.iAdder(Me.components)
         Me.Panel28.SuspendLayout()
         Me.Panel12.SuspendLayout()
         Me.Panel13.SuspendLayout()
@@ -356,14 +360,14 @@ Partial Class frmLayout
         Me.ILed7Segment2.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment2.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment2.DecimalShow = True
-        Me.ILed7Segment2.DigitNumber = 4
+        Me.ILed7Segment2.DigitNumber = 6
         Me.ILed7Segment2.Driver = Me.IDriver1
         Me.ILed7Segment2.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment2.ElementWidth = 10
         Me.ILed7Segment2.ItalicFactor = -0.1!
-        Me.ILed7Segment2.Location = New System.Drawing.Point(94, 33)
+        Me.ILed7Segment2.Location = New System.Drawing.Point(44, 33)
         Me.ILed7Segment2.Name = "ILed7Segment2"
-        Me.ILed7Segment2.Size = New System.Drawing.Size(264, 58)
+        Me.ILed7Segment2.Size = New System.Drawing.Size(378, 58)
         Me.ILed7Segment2.TabIndex = 13
         Me.ILed7Segment2.TabStop = False
         Me.ILed7Segment2.TagName = "EnergyTotalTotal.KV2"
@@ -767,17 +771,17 @@ Partial Class frmLayout
         Me.ILed7Segment1.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment1.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment1.DecimalShow = True
-        Me.ILed7Segment1.DigitNumber = 4
+        Me.ILed7Segment1.DigitNumber = 6
         Me.ILed7Segment1.Driver = Me.IDriver1
         Me.ILed7Segment1.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment1.ElementWidth = 10
         Me.ILed7Segment1.ItalicFactor = -0.1!
-        Me.ILed7Segment1.Location = New System.Drawing.Point(99, 33)
+        Me.ILed7Segment1.Location = New System.Drawing.Point(44, 33)
         Me.ILed7Segment1.Name = "ILed7Segment1"
-        Me.ILed7Segment1.Size = New System.Drawing.Size(260, 58)
+        Me.ILed7Segment1.Size = New System.Drawing.Size(378, 58)
         Me.ILed7Segment1.TabIndex = 12
         Me.ILed7Segment1.TabStop = False
-        Me.ILed7Segment1.TagName = "EnergyTotalTotal.kV1"
+        Me.ILed7Segment1.TagName = "EnergyTotalTotal.KV1"
         Me.ILed7Segment1.Text = "ILed7Segment1"
         Me.ILed7Segment1.Value = "0"
         '
@@ -878,7 +882,7 @@ Partial Class frmLayout
         Me.ILed7Segment5.ItalicFactor = -0.1!
         Me.ILed7Segment5.Location = New System.Drawing.Point(3, 5)
         Me.ILed7Segment5.Name = "ILed7Segment5"
-        Me.ILed7Segment5.Size = New System.Drawing.Size(217, 45)
+        Me.ILed7Segment5.Size = New System.Drawing.Size(208, 45)
         Me.ILed7Segment5.TabIndex = 13
         Me.ILed7Segment5.TabStop = False
         Me.ILed7Segment5.TagName = "KV1DH2.Energy"
@@ -1178,14 +1182,14 @@ Partial Class frmLayout
         Me.ILed7Segment9.ColorLight = System.Drawing.Color.Red
         Me.ILed7Segment9.Cursor = System.Windows.Forms.Cursors.Default
         Me.ILed7Segment9.DecimalShow = True
-        Me.ILed7Segment9.DigitNumber = 4
+        Me.ILed7Segment9.DigitNumber = 6
         Me.ILed7Segment9.Driver = Me.IDriver1
         Me.ILed7Segment9.ElementPadding = New System.Windows.Forms.Padding(10)
         Me.ILed7Segment9.ElementWidth = 10
         Me.ILed7Segment9.ItalicFactor = -0.1!
-        Me.ILed7Segment9.Location = New System.Drawing.Point(78, 33)
+        Me.ILed7Segment9.Location = New System.Drawing.Point(44, 33)
         Me.ILed7Segment9.Name = "ILed7Segment9"
-        Me.ILed7Segment9.Size = New System.Drawing.Size(284, 58)
+        Me.ILed7Segment9.Size = New System.Drawing.Size(349, 58)
         Me.ILed7Segment9.TabIndex = 13
         Me.ILed7Segment9.TabStop = False
         Me.ILed7Segment9.TagName = "EnergyTotalTotal.KV3"
@@ -1250,6 +1254,42 @@ Partial Class frmLayout
         Me.IWebService1.Driver = Me.IDriver1
         Me.IWebService1.Port = CType(8010UI, UInteger)
         Me.IWebService1.Server = "localhost"
+        '
+        'IAdder1
+        '
+        Me.IAdder1.Collection = "KV1DH1.Energy&1|KV1DH2.Energy&1"
+        Me.IAdder1.DecimalPlaces = -1
+        Me.IAdder1.Driver = Me.IDriver1
+        Me.IAdder1.Result = "EnergyTotalTotal.KV1"
+        Me.IAdder1.SamplingTime = CType(2000UI, UInteger)
+        Me.IAdder1.Scale = 1.0R
+        '
+        'IAdder2
+        '
+        Me.IAdder2.Collection = "KV2DH3.Energy&1|KV2DH4.Energy&1"
+        Me.IAdder2.DecimalPlaces = -1
+        Me.IAdder2.Driver = Me.IDriver1
+        Me.IAdder2.Result = "EnergyTotalTotal.KV2"
+        Me.IAdder2.SamplingTime = CType(2000UI, UInteger)
+        Me.IAdder2.Scale = 1.0R
+        '
+        'IAdder3
+        '
+        Me.IAdder3.Collection = "KV3DH5.Energy&1|KV3DH6.Energy&1"
+        Me.IAdder3.DecimalPlaces = -1
+        Me.IAdder3.Driver = Me.IDriver1
+        Me.IAdder3.Result = "EnergyTotalTotal.KV3"
+        Me.IAdder3.SamplingTime = CType(2000UI, UInteger)
+        Me.IAdder3.Scale = 1.0R
+        '
+        'IAdder4
+        '
+        Me.IAdder4.Collection = "EnergyTotalTotal.KV1&1|EnergyTotalTotal.KV2&1|EnergyTotalTotal.KV3&1"
+        Me.IAdder4.DecimalPlaces = -1
+        Me.IAdder4.Driver = Me.IDriver1
+        Me.IAdder4.Result = "EnergyTotalTotal.Total"
+        Me.IAdder4.SamplingTime = CType(2000UI, UInteger)
+        Me.IAdder4.Scale = 1.0R
         '
         'frmLayout
         '
@@ -1406,4 +1446,8 @@ Partial Class frmLayout
     Friend WithEvents Label13 As Label
     Friend WithEvents IThreeRatePriceLogger6 As ATSCADA.iEnergyTools.Power.Price.ThreeRate.Logger.iThreeRatePriceLogger
     Friend WithEvents IWebService1 As ATSCADA.WebService.iWebService
+    Friend WithEvents IAdder1 As ATSCADA.iLEANTools.Calculators.iAdder
+    Friend WithEvents IAdder2 As ATSCADA.iLEANTools.Calculators.iAdder
+    Friend WithEvents IAdder3 As ATSCADA.iLEANTools.Calculators.iAdder
+    Friend WithEvents IAdder4 As ATSCADA.iLEANTools.Calculators.iAdder
 End Class
